@@ -1,1 +1,2 @@
 # WATS
+Enviroment set up
