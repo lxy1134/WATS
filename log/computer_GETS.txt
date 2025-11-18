@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/root/WATS/main.py", line 21, in <module>
+    conf = load_conf(dataset=args.dataset)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/WATS/utils/utils.py", line 39, in load_conf
+    raise KeyError("The configuration file is not provided.")
+KeyError: 'The configuration file is not provided.'

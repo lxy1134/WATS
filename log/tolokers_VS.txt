@@ -1,0 +1,676 @@
+/usr/local/lib/python3.11/dist-packages/dgl/heterograph.py:92: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning(
+Done loading data from cached files.
+Debug: Dataset tolokers train_idx: 1763, val_idx: 588, test_idx: 9407
+Debug: Dataset tolokers train_idx: 10, val_idx: 10, test_idx: 10
+Dataset: tolokers | #Nodes: 11758 | #Edges: 1049758 | #Classes: 2 |#Features: 10
+Exp 0/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 0.6774 | Acc(train) 0.7737 | Acc(val) 0.7925 |*
+Epoch 00002 | Loss(train) 0.6609 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00003 | Loss(train) 0.6463 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00004 | Loss(train) 0.6306 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00005 | Loss(train) 0.6159 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00006 | Loss(train) 0.6021 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00007 | Loss(train) 0.5902 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00008 | Loss(train) 0.5835 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00009 | Loss(train) 0.5764 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00010 | Loss(train) 0.5792 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00011 | Loss(train) 0.5765 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00012 | Loss(train) 0.5763 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00013 | Loss(train) 0.5782 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00014 | Loss(train) 0.5741 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00015 | Loss(train) 0.5653 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00016 | Loss(train) 0.5653 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00017 | Loss(train) 0.5595 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00018 | Loss(train) 0.5565 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00019 | Loss(train) 0.5546 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00020 | Loss(train) 0.5507 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00021 | Loss(train) 0.5505 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00022 | Loss(train) 0.5468 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00023 | Loss(train) 0.5454 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00024 | Loss(train) 0.5431 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00025 | Loss(train) 0.5396 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00026 | Loss(train) 0.5389 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00027 | Loss(train) 0.5365 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00028 | Loss(train) 0.5357 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00029 | Loss(train) 0.5338 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00030 | Loss(train) 0.5284 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00031 | Loss(train) 0.5306 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00032 | Loss(train) 0.5296 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00033 | Loss(train) 0.5241 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00034 | Loss(train) 0.5272 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00035 | Loss(train) 0.5236 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00036 | Loss(train) 0.5201 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00037 | Loss(train) 0.5217 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00038 | Loss(train) 0.5181 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00039 | Loss(train) 0.5170 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00040 | Loss(train) 0.5164 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00041 | Loss(train) 0.5136 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00042 | Loss(train) 0.5135 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00043 | Loss(train) 0.5132 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00044 | Loss(train) 0.5097 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00045 | Loss(train) 0.5079 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00046 | Loss(train) 0.5085 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00047 | Loss(train) 0.5037 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00048 | Loss(train) 0.5029 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00049 | Loss(train) 0.5029 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00050 | Loss(train) 0.4994 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Early stopping at epoch 50
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.6, 'cal_hidden_dim': 16}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 16, 'dropout': 0.2, 'norm': None, 'in_dim': 10, 'out_dim': 2}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.0005, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 112.88 MB
+GPU Memory Reserved: 220.00 MB
+Exp 1/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 0.7415 | Acc(train) 0.2138 | Acc(val) 0.2857 |*
+Epoch 00002 | Loss(train) 0.7140 | Acc(train) 0.3125 | Acc(val) 0.4847 |*
+Epoch 00003 | Loss(train) 0.6892 | Acc(train) 0.4918 | Acc(val) 0.7313 |*
+Epoch 00004 | Loss(train) 0.6654 | Acc(train) 0.6982 | Acc(val) 0.7925 |*
+Epoch 00005 | Loss(train) 0.6449 | Acc(train) 0.7754 | Acc(val) 0.7925 |
+Epoch 00006 | Loss(train) 0.6305 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00007 | Loss(train) 0.6089 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00008 | Loss(train) 0.6060 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00009 | Loss(train) 0.6041 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00010 | Loss(train) 0.6029 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00011 | Loss(train) 0.6090 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00012 | Loss(train) 0.6108 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00013 | Loss(train) 0.6093 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00014 | Loss(train) 0.6017 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00015 | Loss(train) 0.5997 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00016 | Loss(train) 0.5928 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00017 | Loss(train) 0.5889 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00018 | Loss(train) 0.5855 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00019 | Loss(train) 0.5818 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00020 | Loss(train) 0.5772 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00021 | Loss(train) 0.5760 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00022 | Loss(train) 0.5727 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00023 | Loss(train) 0.5723 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00024 | Loss(train) 0.5692 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00025 | Loss(train) 0.5704 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00026 | Loss(train) 0.5677 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00027 | Loss(train) 0.5596 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00028 | Loss(train) 0.5632 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00029 | Loss(train) 0.5625 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00030 | Loss(train) 0.5577 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00031 | Loss(train) 0.5539 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00032 | Loss(train) 0.5494 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00033 | Loss(train) 0.5493 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00034 | Loss(train) 0.5470 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00035 | Loss(train) 0.5489 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00036 | Loss(train) 0.5456 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00037 | Loss(train) 0.5441 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00038 | Loss(train) 0.5443 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00039 | Loss(train) 0.5417 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00040 | Loss(train) 0.5396 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00041 | Loss(train) 0.5391 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00042 | Loss(train) 0.5361 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00043 | Loss(train) 0.5295 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00044 | Loss(train) 0.5320 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00045 | Loss(train) 0.5315 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00046 | Loss(train) 0.5290 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00047 | Loss(train) 0.5262 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00048 | Loss(train) 0.5262 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00049 | Loss(train) 0.5223 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00050 | Loss(train) 0.5235 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00051 | Loss(train) 0.5184 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00052 | Loss(train) 0.5174 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00053 | Loss(train) 0.5160 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Early stopping at epoch 53
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.6, 'cal_hidden_dim': 16}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 16, 'dropout': 0.2, 'norm': None, 'in_dim': 10, 'out_dim': 2}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.0005, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 112.88 MB
+GPU Memory Reserved: 220.00 MB
+Exp 2/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 0.7586 | Acc(train) 0.2121 | Acc(val) 0.2075 |*
+Epoch 00002 | Loss(train) 0.7354 | Acc(train) 0.2121 | Acc(val) 0.2075 |
+Epoch 00003 | Loss(train) 0.7163 | Acc(train) 0.2116 | Acc(val) 0.2296 |*
+Epoch 00004 | Loss(train) 0.6990 | Acc(train) 0.3335 | Acc(val) 0.7364 |*
+Epoch 00005 | Loss(train) 0.6839 | Acc(train) 0.6858 | Acc(val) 0.7925 |*
+Epoch 00006 | Loss(train) 0.6689 | Acc(train) 0.7873 | Acc(val) 0.7925 |
+Epoch 00007 | Loss(train) 0.6551 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00008 | Loss(train) 0.6415 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00009 | Loss(train) 0.6260 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00010 | Loss(train) 0.6140 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00011 | Loss(train) 0.6010 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00012 | Loss(train) 0.5905 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00013 | Loss(train) 0.5837 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00014 | Loss(train) 0.5809 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00015 | Loss(train) 0.5795 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00016 | Loss(train) 0.5780 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00017 | Loss(train) 0.5768 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00018 | Loss(train) 0.5777 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00019 | Loss(train) 0.5792 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00020 | Loss(train) 0.5752 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00021 | Loss(train) 0.5747 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00022 | Loss(train) 0.5692 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00023 | Loss(train) 0.5628 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00024 | Loss(train) 0.5629 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00025 | Loss(train) 0.5591 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00026 | Loss(train) 0.5592 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00027 | Loss(train) 0.5573 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00028 | Loss(train) 0.5515 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00029 | Loss(train) 0.5532 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00030 | Loss(train) 0.5512 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00031 | Loss(train) 0.5508 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00032 | Loss(train) 0.5487 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00033 | Loss(train) 0.5459 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00034 | Loss(train) 0.5447 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00035 | Loss(train) 0.5405 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00036 | Loss(train) 0.5391 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00037 | Loss(train) 0.5366 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00038 | Loss(train) 0.5352 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00039 | Loss(train) 0.5319 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00040 | Loss(train) 0.5343 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00041 | Loss(train) 0.5313 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00042 | Loss(train) 0.5315 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00043 | Loss(train) 0.5296 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00044 | Loss(train) 0.5279 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00045 | Loss(train) 0.5235 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00046 | Loss(train) 0.5243 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00047 | Loss(train) 0.5217 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00048 | Loss(train) 0.5239 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00049 | Loss(train) 0.5197 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00050 | Loss(train) 0.5159 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00051 | Loss(train) 0.5188 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00052 | Loss(train) 0.5170 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00053 | Loss(train) 0.5133 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00054 | Loss(train) 0.5140 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Early stopping at epoch 54
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.6, 'cal_hidden_dim': 16}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 16, 'dropout': 0.2, 'norm': None, 'in_dim': 10, 'out_dim': 2}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.0005, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 112.88 MB
+GPU Memory Reserved: 220.00 MB
+Exp 3/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 0.7011 | Acc(train) 0.4141 | Acc(val) 0.7568 |*
+Epoch 00002 | Loss(train) 0.6800 | Acc(train) 0.7073 | Acc(val) 0.7925 |*
+Epoch 00003 | Loss(train) 0.6587 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00004 | Loss(train) 0.6395 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00005 | Loss(train) 0.6226 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00006 | Loss(train) 0.6088 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00007 | Loss(train) 0.5979 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00008 | Loss(train) 0.5858 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00009 | Loss(train) 0.5818 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00010 | Loss(train) 0.5767 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00011 | Loss(train) 0.5786 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00012 | Loss(train) 0.5769 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00013 | Loss(train) 0.5787 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00014 | Loss(train) 0.5789 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00015 | Loss(train) 0.5727 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00016 | Loss(train) 0.5713 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00017 | Loss(train) 0.5670 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00018 | Loss(train) 0.5693 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00019 | Loss(train) 0.5609 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00020 | Loss(train) 0.5589 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00021 | Loss(train) 0.5565 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00022 | Loss(train) 0.5563 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00023 | Loss(train) 0.5491 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00024 | Loss(train) 0.5495 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00025 | Loss(train) 0.5490 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00026 | Loss(train) 0.5480 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00027 | Loss(train) 0.5440 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00028 | Loss(train) 0.5440 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00029 | Loss(train) 0.5405 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00030 | Loss(train) 0.5411 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00031 | Loss(train) 0.5392 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00032 | Loss(train) 0.5361 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00033 | Loss(train) 0.5351 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00034 | Loss(train) 0.5357 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00035 | Loss(train) 0.5298 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00036 | Loss(train) 0.5293 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00037 | Loss(train) 0.5273 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00038 | Loss(train) 0.5247 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00039 | Loss(train) 0.5257 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00040 | Loss(train) 0.5247 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00041 | Loss(train) 0.5214 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00042 | Loss(train) 0.5195 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00043 | Loss(train) 0.5189 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00044 | Loss(train) 0.5189 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00045 | Loss(train) 0.5155 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00046 | Loss(train) 0.5187 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00047 | Loss(train) 0.5142 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00048 | Loss(train) 0.5121 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00049 | Loss(train) 0.5118 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00050 | Loss(train) 0.5106 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00051 | Loss(train) 0.5082 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Early stopping at epoch 51
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.6, 'cal_hidden_dim': 16}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 16, 'dropout': 0.2, 'norm': None, 'in_dim': 10, 'out_dim': 2}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.0005, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 112.88 MB
+GPU Memory Reserved: 220.00 MB
+Exp 4/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 0.7307 | Acc(train) 0.2269 | Acc(val) 0.2194 |*
+Epoch 00002 | Loss(train) 0.7032 | Acc(train) 0.3437 | Acc(val) 0.7772 |*
+Epoch 00003 | Loss(train) 0.6786 | Acc(train) 0.7085 | Acc(val) 0.7925 |*
+Epoch 00004 | Loss(train) 0.6541 | Acc(train) 0.7828 | Acc(val) 0.7925 |
+Epoch 00005 | Loss(train) 0.6332 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00006 | Loss(train) 0.6155 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00007 | Loss(train) 0.6007 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00008 | Loss(train) 0.5905 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00009 | Loss(train) 0.5902 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00010 | Loss(train) 0.5837 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00011 | Loss(train) 0.5897 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00012 | Loss(train) 0.5942 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00013 | Loss(train) 0.5844 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00014 | Loss(train) 0.5882 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00015 | Loss(train) 0.5823 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00016 | Loss(train) 0.5772 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00017 | Loss(train) 0.5753 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00018 | Loss(train) 0.5708 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00019 | Loss(train) 0.5633 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00020 | Loss(train) 0.5655 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00021 | Loss(train) 0.5635 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00022 | Loss(train) 0.5622 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00023 | Loss(train) 0.5620 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00024 | Loss(train) 0.5605 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00025 | Loss(train) 0.5601 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00026 | Loss(train) 0.5570 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00027 | Loss(train) 0.5535 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00028 | Loss(train) 0.5506 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00029 | Loss(train) 0.5502 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00030 | Loss(train) 0.5480 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00031 | Loss(train) 0.5467 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00032 | Loss(train) 0.5455 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00033 | Loss(train) 0.5398 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00034 | Loss(train) 0.5388 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00035 | Loss(train) 0.5405 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00036 | Loss(train) 0.5411 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00037 | Loss(train) 0.5317 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00038 | Loss(train) 0.5348 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00039 | Loss(train) 0.5311 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00040 | Loss(train) 0.5299 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00041 | Loss(train) 0.5331 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00042 | Loss(train) 0.5262 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00043 | Loss(train) 0.5260 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00044 | Loss(train) 0.5234 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00045 | Loss(train) 0.5209 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00046 | Loss(train) 0.5235 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00047 | Loss(train) 0.5188 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00048 | Loss(train) 0.5174 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00049 | Loss(train) 0.5158 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00050 | Loss(train) 0.5160 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00051 | Loss(train) 0.5125 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00052 | Loss(train) 0.5102 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Early stopping at epoch 52
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.6, 'cal_hidden_dim': 16}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 16, 'dropout': 0.2, 'norm': None, 'in_dim': 10, 'out_dim': 2}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.0005, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 112.88 MB
+GPU Memory Reserved: 220.00 MB
+Exp 5/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 0.6562 | Acc(train) 0.7867 | Acc(val) 0.7925 |*
+Epoch 00002 | Loss(train) 0.6376 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00003 | Loss(train) 0.6207 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00004 | Loss(train) 0.6060 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00005 | Loss(train) 0.5951 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00006 | Loss(train) 0.5853 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00007 | Loss(train) 0.5792 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00008 | Loss(train) 0.5729 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00009 | Loss(train) 0.5743 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00010 | Loss(train) 0.5763 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00011 | Loss(train) 0.5748 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00012 | Loss(train) 0.5764 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00013 | Loss(train) 0.5729 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00014 | Loss(train) 0.5700 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00015 | Loss(train) 0.5693 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00016 | Loss(train) 0.5670 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00017 | Loss(train) 0.5657 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00018 | Loss(train) 0.5581 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00019 | Loss(train) 0.5573 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00020 | Loss(train) 0.5560 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00021 | Loss(train) 0.5528 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00022 | Loss(train) 0.5520 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00023 | Loss(train) 0.5518 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00024 | Loss(train) 0.5482 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00025 | Loss(train) 0.5462 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00026 | Loss(train) 0.5451 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00027 | Loss(train) 0.5433 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00028 | Loss(train) 0.5413 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00029 | Loss(train) 0.5387 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00030 | Loss(train) 0.5380 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00031 | Loss(train) 0.5350 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00032 | Loss(train) 0.5329 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00033 | Loss(train) 0.5306 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00034 | Loss(train) 0.5300 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00035 | Loss(train) 0.5273 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00036 | Loss(train) 0.5273 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00037 | Loss(train) 0.5253 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00038 | Loss(train) 0.5198 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00039 | Loss(train) 0.5206 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00040 | Loss(train) 0.5132 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00041 | Loss(train) 0.5139 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00042 | Loss(train) 0.5138 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00043 | Loss(train) 0.5106 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00044 | Loss(train) 0.5101 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00045 | Loss(train) 0.5073 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00046 | Loss(train) 0.5037 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00047 | Loss(train) 0.5010 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00048 | Loss(train) 0.4983 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00049 | Loss(train) 0.4974 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00050 | Loss(train) 0.5035 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Early stopping at epoch 50
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.6, 'cal_hidden_dim': 16}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 16, 'dropout': 0.2, 'norm': None, 'in_dim': 10, 'out_dim': 2}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.0005, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 112.88 MB
+GPU Memory Reserved: 220.00 MB
+Exp 6/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 0.7089 | Acc(train) 0.3364 | Acc(val) 0.7058 |*
+Epoch 00002 | Loss(train) 0.6869 | Acc(train) 0.6495 | Acc(val) 0.7925 |*
+Epoch 00003 | Loss(train) 0.6676 | Acc(train) 0.7794 | Acc(val) 0.7925 |
+Epoch 00004 | Loss(train) 0.6507 | Acc(train) 0.7867 | Acc(val) 0.7925 |
+Epoch 00005 | Loss(train) 0.6366 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00006 | Loss(train) 0.6247 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00007 | Loss(train) 0.6138 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00008 | Loss(train) 0.6034 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00009 | Loss(train) 0.5947 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00010 | Loss(train) 0.5870 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00011 | Loss(train) 0.5768 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00012 | Loss(train) 0.5740 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00013 | Loss(train) 0.5738 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00014 | Loss(train) 0.5702 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00015 | Loss(train) 0.5712 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00016 | Loss(train) 0.5679 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00017 | Loss(train) 0.5704 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00018 | Loss(train) 0.5679 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00019 | Loss(train) 0.5638 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00020 | Loss(train) 0.5632 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00021 | Loss(train) 0.5600 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00022 | Loss(train) 0.5587 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00023 | Loss(train) 0.5574 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00024 | Loss(train) 0.5588 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00025 | Loss(train) 0.5509 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00026 | Loss(train) 0.5541 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00027 | Loss(train) 0.5462 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00028 | Loss(train) 0.5476 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00029 | Loss(train) 0.5444 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00030 | Loss(train) 0.5444 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00031 | Loss(train) 0.5421 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00032 | Loss(train) 0.5407 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00033 | Loss(train) 0.5415 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00034 | Loss(train) 0.5365 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00035 | Loss(train) 0.5357 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00036 | Loss(train) 0.5331 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00037 | Loss(train) 0.5298 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00038 | Loss(train) 0.5344 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00039 | Loss(train) 0.5301 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00040 | Loss(train) 0.5277 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00041 | Loss(train) 0.5283 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00042 | Loss(train) 0.5268 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00043 | Loss(train) 0.5243 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00044 | Loss(train) 0.5233 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00045 | Loss(train) 0.5240 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00046 | Loss(train) 0.5202 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00047 | Loss(train) 0.5215 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00048 | Loss(train) 0.5186 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00049 | Loss(train) 0.5155 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00050 | Loss(train) 0.5161 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00051 | Loss(train) 0.5140 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Early stopping at epoch 51
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.6, 'cal_hidden_dim': 16}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 16, 'dropout': 0.2, 'norm': None, 'in_dim': 10, 'out_dim': 2}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.0005, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 112.88 MB
+GPU Memory Reserved: 220.00 MB
+Exp 7/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 0.7287 | Acc(train) 0.2524 | Acc(val) 0.3878 |*
+Epoch 00002 | Loss(train) 0.7029 | Acc(train) 0.4294 | Acc(val) 0.7551 |*
+Epoch 00003 | Loss(train) 0.6776 | Acc(train) 0.7164 | Acc(val) 0.7925 |*
+Epoch 00004 | Loss(train) 0.6555 | Acc(train) 0.7884 | Acc(val) 0.7925 |
+Epoch 00005 | Loss(train) 0.6373 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00006 | Loss(train) 0.6202 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00007 | Loss(train) 0.6044 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00008 | Loss(train) 0.5923 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00009 | Loss(train) 0.5823 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00010 | Loss(train) 0.5760 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00011 | Loss(train) 0.5727 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00012 | Loss(train) 0.5730 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00013 | Loss(train) 0.5808 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00014 | Loss(train) 0.5791 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00015 | Loss(train) 0.5744 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00016 | Loss(train) 0.5727 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00017 | Loss(train) 0.5677 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00018 | Loss(train) 0.5657 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00019 | Loss(train) 0.5633 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00020 | Loss(train) 0.5619 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00021 | Loss(train) 0.5566 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00022 | Loss(train) 0.5580 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00023 | Loss(train) 0.5506 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00024 | Loss(train) 0.5515 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00025 | Loss(train) 0.5519 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00026 | Loss(train) 0.5498 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00027 | Loss(train) 0.5483 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00028 | Loss(train) 0.5470 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00029 | Loss(train) 0.5465 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00030 | Loss(train) 0.5435 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00031 | Loss(train) 0.5431 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00032 | Loss(train) 0.5391 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00033 | Loss(train) 0.5383 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00034 | Loss(train) 0.5375 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00035 | Loss(train) 0.5353 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00036 | Loss(train) 0.5321 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00037 | Loss(train) 0.5323 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00038 | Loss(train) 0.5283 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00039 | Loss(train) 0.5296 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00040 | Loss(train) 0.5281 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00041 | Loss(train) 0.5267 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00042 | Loss(train) 0.5245 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00043 | Loss(train) 0.5247 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00044 | Loss(train) 0.5222 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00045 | Loss(train) 0.5211 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00046 | Loss(train) 0.5199 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00047 | Loss(train) 0.5167 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00048 | Loss(train) 0.5220 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00049 | Loss(train) 0.5187 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00050 | Loss(train) 0.5153 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00051 | Loss(train) 0.5150 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00052 | Loss(train) 0.5133 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Early stopping at epoch 52
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.6, 'cal_hidden_dim': 16}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 16, 'dropout': 0.2, 'norm': None, 'in_dim': 10, 'out_dim': 2}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.0005, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 112.88 MB
+GPU Memory Reserved: 220.00 MB
+Exp 8/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 0.6986 | Acc(train) 0.4663 | Acc(val) 0.7466 |*
+Epoch 00002 | Loss(train) 0.6779 | Acc(train) 0.6625 | Acc(val) 0.7925 |*
+Epoch 00003 | Loss(train) 0.6647 | Acc(train) 0.6744 | Acc(val) 0.7925 |
+Epoch 00004 | Loss(train) 0.6514 | Acc(train) 0.7470 | Acc(val) 0.7925 |
+Epoch 00005 | Loss(train) 0.6375 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00006 | Loss(train) 0.6304 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00007 | Loss(train) 0.6132 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00008 | Loss(train) 0.6098 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00009 | Loss(train) 0.5990 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00010 | Loss(train) 0.5934 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00011 | Loss(train) 0.5956 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00012 | Loss(train) 0.5824 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00013 | Loss(train) 0.5839 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00014 | Loss(train) 0.5872 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00015 | Loss(train) 0.5869 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00016 | Loss(train) 0.5806 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00017 | Loss(train) 0.5884 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00018 | Loss(train) 0.5797 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00019 | Loss(train) 0.5776 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00020 | Loss(train) 0.5785 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00021 | Loss(train) 0.5802 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00022 | Loss(train) 0.5727 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00023 | Loss(train) 0.5718 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00024 | Loss(train) 0.5739 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00025 | Loss(train) 0.5679 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00026 | Loss(train) 0.5676 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00027 | Loss(train) 0.5638 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00028 | Loss(train) 0.5615 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00029 | Loss(train) 0.5604 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00030 | Loss(train) 0.5614 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00031 | Loss(train) 0.5520 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00032 | Loss(train) 0.5559 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00033 | Loss(train) 0.5494 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00034 | Loss(train) 0.5519 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00035 | Loss(train) 0.5502 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00036 | Loss(train) 0.5477 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00037 | Loss(train) 0.5435 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00038 | Loss(train) 0.5397 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00039 | Loss(train) 0.5391 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00040 | Loss(train) 0.5383 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00041 | Loss(train) 0.5357 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00042 | Loss(train) 0.5312 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00043 | Loss(train) 0.5270 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00044 | Loss(train) 0.5295 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00045 | Loss(train) 0.5276 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00046 | Loss(train) 0.5207 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00047 | Loss(train) 0.5208 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00048 | Loss(train) 0.5189 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00049 | Loss(train) 0.5144 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00050 | Loss(train) 0.5124 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00051 | Loss(train) 0.5123 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Early stopping at epoch 51
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.6, 'cal_hidden_dim': 16}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 16, 'dropout': 0.2, 'norm': None, 'in_dim': 10, 'out_dim': 2}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.0005, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 112.88 MB
+GPU Memory Reserved: 220.00 MB
+Exp 9/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 0.6889 | Acc(train) 0.6064 | Acc(val) 0.7908 |*
+Epoch 00002 | Loss(train) 0.6647 | Acc(train) 0.7765 | Acc(val) 0.7925 |*
+Epoch 00003 | Loss(train) 0.6449 | Acc(train) 0.7884 | Acc(val) 0.7925 |
+Epoch 00004 | Loss(train) 0.6274 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00005 | Loss(train) 0.6133 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00006 | Loss(train) 0.6012 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00007 | Loss(train) 0.5907 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00008 | Loss(train) 0.5784 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00009 | Loss(train) 0.5724 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00010 | Loss(train) 0.5708 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00011 | Loss(train) 0.5712 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00012 | Loss(train) 0.5723 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00013 | Loss(train) 0.5731 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00014 | Loss(train) 0.5770 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00015 | Loss(train) 0.5756 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00016 | Loss(train) 0.5718 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00017 | Loss(train) 0.5655 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00018 | Loss(train) 0.5649 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00019 | Loss(train) 0.5607 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00020 | Loss(train) 0.5613 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00021 | Loss(train) 0.5581 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00022 | Loss(train) 0.5543 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00023 | Loss(train) 0.5535 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00024 | Loss(train) 0.5514 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00025 | Loss(train) 0.5515 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00026 | Loss(train) 0.5502 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00027 | Loss(train) 0.5475 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00028 | Loss(train) 0.5452 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00029 | Loss(train) 0.5453 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00030 | Loss(train) 0.5453 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00031 | Loss(train) 0.5421 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00032 | Loss(train) 0.5411 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00033 | Loss(train) 0.5396 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00034 | Loss(train) 0.5395 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00035 | Loss(train) 0.5360 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00036 | Loss(train) 0.5355 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00037 | Loss(train) 0.5339 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00038 | Loss(train) 0.5340 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00039 | Loss(train) 0.5324 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00040 | Loss(train) 0.5310 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00041 | Loss(train) 0.5288 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00042 | Loss(train) 0.5295 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00043 | Loss(train) 0.5252 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00044 | Loss(train) 0.5263 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00045 | Loss(train) 0.5242 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00046 | Loss(train) 0.5224 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00047 | Loss(train) 0.5228 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00048 | Loss(train) 0.5215 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00049 | Loss(train) 0.5200 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00050 | Loss(train) 0.5172 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Epoch 00051 | Loss(train) 0.5162 | Acc(train) 0.7879 | Acc(val) 0.7925 |
+Early stopping at epoch 51
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.6, 'cal_hidden_dim': 16}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 16, 'dropout': 0.2, 'norm': None, 'in_dim': 10, 'out_dim': 2}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.0005, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 112.88 MB
+GPU Memory Reserved: 220.00 MB
+All runs:
+Uncalibrated Test Accuracy: 78.00 ± 0.00
+Uncalibrated Difference: 6.40 ± 0.62
+Calibrated Test Accuracy: 78.00 ± 0.00
+Calibrated Difference: 4.41 ± 0.60

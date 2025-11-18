@@ -1,0 +1,1499 @@
+/usr/local/lib/python3.11/dist-packages/dgl/heterograph.py:92: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning(
+Debug: Dataset cora-full train_idx: 2820, val_idx: 940, test_idx: 15040
+Debug: Dataset cora-full train_idx: 10, val_idx: 10, test_idx: 10
+Dataset: cora-full | #Nodes: 18800 | #Edges: 144170 | #Classes: 70 |#Features: 8710
+Exp 0/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 4.2415 | Acc(train) 0.0238 | Acc(val) 0.0340 |*
+Epoch 00002 | Loss(train) 4.2424 | Acc(train) 0.0415 | Acc(val) 0.0500 |*
+Epoch 00003 | Loss(train) 4.2168 | Acc(train) 0.0397 | Acc(val) 0.0596 |*
+Epoch 00004 | Loss(train) 4.1992 | Acc(train) 0.0394 | Acc(val) 0.0702 |*
+Epoch 00005 | Loss(train) 4.1808 | Acc(train) 0.0422 | Acc(val) 0.0755 |*
+Epoch 00006 | Loss(train) 4.1589 | Acc(train) 0.0422 | Acc(val) 0.0883 |*
+Epoch 00007 | Loss(train) 4.1403 | Acc(train) 0.0408 | Acc(val) 0.0957 |*
+Epoch 00008 | Loss(train) 4.1157 | Acc(train) 0.0436 | Acc(val) 0.1202 |*
+Epoch 00009 | Loss(train) 4.0746 | Acc(train) 0.0447 | Acc(val) 0.1266 |*
+Epoch 00010 | Loss(train) 4.0672 | Acc(train) 0.0443 | Acc(val) 0.0957 |
+Epoch 00011 | Loss(train) 4.0542 | Acc(train) 0.0528 | Acc(val) 0.0585 |
+Epoch 00012 | Loss(train) 4.0314 | Acc(train) 0.0589 | Acc(val) 0.0447 |
+Epoch 00013 | Loss(train) 4.0462 | Acc(train) 0.0525 | Acc(val) 0.0447 |
+Epoch 00014 | Loss(train) 4.0619 | Acc(train) 0.0567 | Acc(val) 0.0447 |
+Epoch 00015 | Loss(train) 4.0211 | Acc(train) 0.0560 | Acc(val) 0.0532 |
+Epoch 00016 | Loss(train) 4.0005 | Acc(train) 0.0596 | Acc(val) 0.0606 |
+Epoch 00017 | Loss(train) 3.9902 | Acc(train) 0.0557 | Acc(val) 0.0723 |
+Epoch 00018 | Loss(train) 3.9966 | Acc(train) 0.0628 | Acc(val) 0.0777 |
+Epoch 00019 | Loss(train) 3.9950 | Acc(train) 0.0684 | Acc(val) 0.0798 |
+Epoch 00020 | Loss(train) 3.9904 | Acc(train) 0.0645 | Acc(val) 0.0798 |
+Epoch 00021 | Loss(train) 3.9732 | Acc(train) 0.0667 | Acc(val) 0.0798 |
+Epoch 00022 | Loss(train) 3.9654 | Acc(train) 0.0649 | Acc(val) 0.0798 |
+Epoch 00023 | Loss(train) 3.9645 | Acc(train) 0.0638 | Acc(val) 0.0798 |
+Epoch 00024 | Loss(train) 3.9588 | Acc(train) 0.0624 | Acc(val) 0.0798 |
+Epoch 00025 | Loss(train) 3.9649 | Acc(train) 0.0652 | Acc(val) 0.0798 |
+Epoch 00026 | Loss(train) 3.9515 | Acc(train) 0.0660 | Acc(val) 0.0798 |
+Epoch 00027 | Loss(train) 3.9361 | Acc(train) 0.0691 | Acc(val) 0.0798 |
+Epoch 00028 | Loss(train) 3.9429 | Acc(train) 0.0663 | Acc(val) 0.0798 |
+Epoch 00029 | Loss(train) 3.9424 | Acc(train) 0.0720 | Acc(val) 0.0798 |
+Epoch 00030 | Loss(train) 3.9236 | Acc(train) 0.0684 | Acc(val) 0.0798 |
+Epoch 00031 | Loss(train) 3.9226 | Acc(train) 0.0741 | Acc(val) 0.0798 |
+Epoch 00032 | Loss(train) 3.9123 | Acc(train) 0.0741 | Acc(val) 0.0798 |
+Epoch 00033 | Loss(train) 3.8928 | Acc(train) 0.0762 | Acc(val) 0.0798 |
+Epoch 00034 | Loss(train) 3.8958 | Acc(train) 0.0766 | Acc(val) 0.0798 |
+Epoch 00035 | Loss(train) 3.8899 | Acc(train) 0.0766 | Acc(val) 0.0798 |
+Epoch 00036 | Loss(train) 3.9116 | Acc(train) 0.0720 | Acc(val) 0.0798 |
+Epoch 00037 | Loss(train) 3.8670 | Acc(train) 0.0816 | Acc(val) 0.0798 |
+Epoch 00038 | Loss(train) 3.8672 | Acc(train) 0.0826 | Acc(val) 0.0798 |
+Epoch 00039 | Loss(train) 3.8504 | Acc(train) 0.0826 | Acc(val) 0.0798 |
+Epoch 00040 | Loss(train) 3.8565 | Acc(train) 0.0872 | Acc(val) 0.0798 |
+Epoch 00041 | Loss(train) 3.8299 | Acc(train) 0.0855 | Acc(val) 0.0798 |
+Epoch 00042 | Loss(train) 3.8353 | Acc(train) 0.0908 | Acc(val) 0.0798 |
+Epoch 00043 | Loss(train) 3.8163 | Acc(train) 0.0887 | Acc(val) 0.0798 |
+Epoch 00044 | Loss(train) 3.8001 | Acc(train) 0.0840 | Acc(val) 0.0798 |
+Epoch 00045 | Loss(train) 3.8120 | Acc(train) 0.0830 | Acc(val) 0.0798 |
+Epoch 00046 | Loss(train) 3.7918 | Acc(train) 0.0897 | Acc(val) 0.0798 |
+Epoch 00047 | Loss(train) 3.7874 | Acc(train) 0.0904 | Acc(val) 0.0798 |
+Epoch 00048 | Loss(train) 3.7560 | Acc(train) 0.0879 | Acc(val) 0.0798 |
+Epoch 00049 | Loss(train) 3.7568 | Acc(train) 0.0922 | Acc(val) 0.0798 |
+Epoch 00050 | Loss(train) 3.7301 | Acc(train) 0.0897 | Acc(val) 0.0798 |
+Epoch 00051 | Loss(train) 3.7569 | Acc(train) 0.0894 | Acc(val) 0.0798 |
+Epoch 00052 | Loss(train) 3.7136 | Acc(train) 0.0933 | Acc(val) 0.0809 |
+Epoch 00053 | Loss(train) 3.7453 | Acc(train) 0.1004 | Acc(val) 0.0830 |
+Epoch 00054 | Loss(train) 3.7066 | Acc(train) 0.0897 | Acc(val) 0.0830 |
+Epoch 00055 | Loss(train) 3.7049 | Acc(train) 0.0957 | Acc(val) 0.0840 |
+Epoch 00056 | Loss(train) 3.6912 | Acc(train) 0.0869 | Acc(val) 0.0840 |
+Epoch 00057 | Loss(train) 3.6929 | Acc(train) 0.0965 | Acc(val) 0.0830 |
+Epoch 00058 | Loss(train) 3.6940 | Acc(train) 0.0929 | Acc(val) 0.0830 |
+Early stopping at epoch 58
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.2, 'cal_hidden_dim': 128}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 64, 'dropout': 0.8, 'norm': None, 'in_dim': 8710, 'out_dim': 70}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.001, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 707.03 MB
+GPU Memory Reserved: 2154.00 MB
+Exp 1/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 4.2386 | Acc(train) 0.0160 | Acc(val) 0.0447 |*
+Epoch 00002 | Loss(train) 4.2278 | Acc(train) 0.0465 | Acc(val) 0.0447 |
+Epoch 00003 | Loss(train) 4.2124 | Acc(train) 0.0447 | Acc(val) 0.0447 |
+Epoch 00004 | Loss(train) 4.1944 | Acc(train) 0.0496 | Acc(val) 0.0447 |
+Epoch 00005 | Loss(train) 4.1749 | Acc(train) 0.0447 | Acc(val) 0.0447 |
+Epoch 00006 | Loss(train) 4.1550 | Acc(train) 0.0564 | Acc(val) 0.0447 |
+Epoch 00007 | Loss(train) 4.1208 | Acc(train) 0.0521 | Acc(val) 0.0447 |
+Epoch 00008 | Loss(train) 4.0988 | Acc(train) 0.0443 | Acc(val) 0.0447 |
+Epoch 00009 | Loss(train) 4.1021 | Acc(train) 0.0500 | Acc(val) 0.0447 |
+Epoch 00010 | Loss(train) 4.0470 | Acc(train) 0.0507 | Acc(val) 0.0447 |
+Epoch 00011 | Loss(train) 4.0553 | Acc(train) 0.0557 | Acc(val) 0.0447 |
+Epoch 00012 | Loss(train) 4.0881 | Acc(train) 0.0521 | Acc(val) 0.0447 |
+Epoch 00013 | Loss(train) 4.0351 | Acc(train) 0.0511 | Acc(val) 0.0447 |
+Epoch 00014 | Loss(train) 4.0211 | Acc(train) 0.0535 | Acc(val) 0.0447 |
+Epoch 00015 | Loss(train) 4.0116 | Acc(train) 0.0557 | Acc(val) 0.0447 |
+Epoch 00016 | Loss(train) 3.9941 | Acc(train) 0.0621 | Acc(val) 0.0500 |*
+Epoch 00017 | Loss(train) 3.9921 | Acc(train) 0.0592 | Acc(val) 0.0606 |*
+Epoch 00018 | Loss(train) 3.9831 | Acc(train) 0.0610 | Acc(val) 0.0691 |*
+Epoch 00019 | Loss(train) 3.9685 | Acc(train) 0.0613 | Acc(val) 0.0755 |*
+Epoch 00020 | Loss(train) 3.9719 | Acc(train) 0.0628 | Acc(val) 0.0777 |*
+Epoch 00021 | Loss(train) 3.9714 | Acc(train) 0.0585 | Acc(val) 0.0787 |*
+Epoch 00022 | Loss(train) 3.9581 | Acc(train) 0.0585 | Acc(val) 0.0787 |
+Epoch 00023 | Loss(train) 3.9586 | Acc(train) 0.0667 | Acc(val) 0.0787 |
+Epoch 00024 | Loss(train) 3.9531 | Acc(train) 0.0606 | Acc(val) 0.0798 |*
+Epoch 00025 | Loss(train) 3.9466 | Acc(train) 0.0649 | Acc(val) 0.0798 |
+Epoch 00026 | Loss(train) 3.9431 | Acc(train) 0.0670 | Acc(val) 0.0798 |
+Epoch 00027 | Loss(train) 3.9403 | Acc(train) 0.0656 | Acc(val) 0.0798 |
+Epoch 00028 | Loss(train) 3.9299 | Acc(train) 0.0699 | Acc(val) 0.0798 |
+Epoch 00029 | Loss(train) 3.9268 | Acc(train) 0.0706 | Acc(val) 0.0798 |
+Epoch 00030 | Loss(train) 3.9153 | Acc(train) 0.0677 | Acc(val) 0.0798 |
+Epoch 00031 | Loss(train) 3.9056 | Acc(train) 0.0738 | Acc(val) 0.0798 |
+Epoch 00032 | Loss(train) 3.8903 | Acc(train) 0.0745 | Acc(val) 0.0798 |
+Epoch 00033 | Loss(train) 3.9044 | Acc(train) 0.0720 | Acc(val) 0.0798 |
+Epoch 00034 | Loss(train) 3.9008 | Acc(train) 0.0770 | Acc(val) 0.0798 |
+Epoch 00035 | Loss(train) 3.8809 | Acc(train) 0.0734 | Acc(val) 0.0798 |
+Epoch 00036 | Loss(train) 3.8893 | Acc(train) 0.0755 | Acc(val) 0.0798 |
+Epoch 00037 | Loss(train) 4.0775 | Acc(train) 0.0848 | Acc(val) 0.0798 |
+Epoch 00038 | Loss(train) 3.8572 | Acc(train) 0.0816 | Acc(val) 0.0798 |
+Epoch 00039 | Loss(train) 3.8550 | Acc(train) 0.0823 | Acc(val) 0.0798 |
+Epoch 00040 | Loss(train) 3.8558 | Acc(train) 0.0876 | Acc(val) 0.0798 |
+Epoch 00041 | Loss(train) 3.8232 | Acc(train) 0.0887 | Acc(val) 0.0798 |
+Epoch 00042 | Loss(train) 3.8344 | Acc(train) 0.0798 | Acc(val) 0.0798 |
+Epoch 00043 | Loss(train) 3.7967 | Acc(train) 0.0869 | Acc(val) 0.0798 |
+Epoch 00044 | Loss(train) 3.8011 | Acc(train) 0.0851 | Acc(val) 0.0798 |
+Epoch 00045 | Loss(train) 3.7707 | Acc(train) 0.0858 | Acc(val) 0.0798 |
+Epoch 00046 | Loss(train) 3.7699 | Acc(train) 0.0858 | Acc(val) 0.0798 |
+Epoch 00047 | Loss(train) 3.7625 | Acc(train) 0.0940 | Acc(val) 0.0809 |*
+Epoch 00048 | Loss(train) 3.7723 | Acc(train) 0.0872 | Acc(val) 0.0809 |
+Epoch 00049 | Loss(train) 3.8112 | Acc(train) 0.0869 | Acc(val) 0.0809 |
+Epoch 00050 | Loss(train) 3.7194 | Acc(train) 0.0887 | Acc(val) 0.0809 |
+Epoch 00051 | Loss(train) 3.6902 | Acc(train) 0.0922 | Acc(val) 0.0809 |
+Epoch 00052 | Loss(train) 3.7080 | Acc(train) 0.0968 | Acc(val) 0.0809 |
+Epoch 00053 | Loss(train) 3.6964 | Acc(train) 0.0957 | Acc(val) 0.0809 |
+Epoch 00054 | Loss(train) 3.7014 | Acc(train) 0.0922 | Acc(val) 0.0809 |
+Epoch 00055 | Loss(train) 3.6727 | Acc(train) 0.0965 | Acc(val) 0.0830 |*
+Epoch 00056 | Loss(train) 3.6680 | Acc(train) 0.1011 | Acc(val) 0.0904 |*
+Epoch 00057 | Loss(train) 3.6637 | Acc(train) 0.0883 | Acc(val) 0.0904 |
+Epoch 00058 | Loss(train) 3.6716 | Acc(train) 0.0887 | Acc(val) 0.0904 |
+Epoch 00059 | Loss(train) 3.6776 | Acc(train) 0.0954 | Acc(val) 0.0915 |*
+Epoch 00060 | Loss(train) 3.6763 | Acc(train) 0.0911 | Acc(val) 0.0926 |*
+Epoch 00061 | Loss(train) 3.6191 | Acc(train) 0.0982 | Acc(val) 0.0936 |*
+Epoch 00062 | Loss(train) 3.6248 | Acc(train) 0.1043 | Acc(val) 0.0947 |*
+Epoch 00063 | Loss(train) 3.6379 | Acc(train) 0.0922 | Acc(val) 0.0947 |
+Epoch 00064 | Loss(train) 3.6196 | Acc(train) 0.1028 | Acc(val) 0.1011 |*
+Epoch 00065 | Loss(train) 3.6374 | Acc(train) 0.0940 | Acc(val) 0.1032 |*
+Epoch 00066 | Loss(train) 3.6381 | Acc(train) 0.1004 | Acc(val) 0.1053 |*
+Epoch 00067 | Loss(train) 3.6490 | Acc(train) 0.0968 | Acc(val) 0.1085 |*
+Epoch 00068 | Loss(train) 3.6405 | Acc(train) 0.0968 | Acc(val) 0.1117 |*
+Epoch 00069 | Loss(train) 3.6168 | Acc(train) 0.0954 | Acc(val) 0.1170 |*
+Epoch 00070 | Loss(train) 3.6381 | Acc(train) 0.1007 | Acc(val) 0.1181 |*
+Epoch 00071 | Loss(train) 3.6317 | Acc(train) 0.1046 | Acc(val) 0.1191 |*
+Epoch 00072 | Loss(train) 3.6881 | Acc(train) 0.1039 | Acc(val) 0.1170 |
+Epoch 00073 | Loss(train) 3.6293 | Acc(train) 0.1064 | Acc(val) 0.1128 |
+Epoch 00074 | Loss(train) 3.5925 | Acc(train) 0.1011 | Acc(val) 0.1074 |
+Epoch 00075 | Loss(train) 3.6048 | Acc(train) 0.1089 | Acc(val) 0.1085 |
+Epoch 00076 | Loss(train) 3.5793 | Acc(train) 0.1167 | Acc(val) 0.1053 |
+Epoch 00077 | Loss(train) 3.5696 | Acc(train) 0.0975 | Acc(val) 0.1032 |
+Epoch 00078 | Loss(train) 3.5820 | Acc(train) 0.1046 | Acc(val) 0.0989 |
+Epoch 00079 | Loss(train) 3.5709 | Acc(train) 0.1021 | Acc(val) 0.0957 |
+Epoch 00080 | Loss(train) 3.5797 | Acc(train) 0.1089 | Acc(val) 0.0968 |
+Epoch 00081 | Loss(train) 3.5918 | Acc(train) 0.1085 | Acc(val) 0.0936 |
+Epoch 00082 | Loss(train) 3.5588 | Acc(train) 0.1007 | Acc(val) 0.0957 |
+Epoch 00083 | Loss(train) 3.5745 | Acc(train) 0.0965 | Acc(val) 0.0957 |
+Epoch 00084 | Loss(train) 3.5485 | Acc(train) 0.0982 | Acc(val) 0.0989 |
+Epoch 00085 | Loss(train) 3.5549 | Acc(train) 0.1060 | Acc(val) 0.1021 |
+Epoch 00086 | Loss(train) 3.5833 | Acc(train) 0.1057 | Acc(val) 0.1032 |
+Epoch 00087 | Loss(train) 3.5965 | Acc(train) 0.1046 | Acc(val) 0.1032 |
+Epoch 00088 | Loss(train) 3.5441 | Acc(train) 0.1067 | Acc(val) 0.1032 |
+Epoch 00089 | Loss(train) 3.5643 | Acc(train) 0.1121 | Acc(val) 0.1011 |
+Epoch 00090 | Loss(train) 3.5492 | Acc(train) 0.1067 | Acc(val) 0.1043 |
+Epoch 00091 | Loss(train) 3.5599 | Acc(train) 0.1035 | Acc(val) 0.1053 |
+Epoch 00092 | Loss(train) 3.5444 | Acc(train) 0.1067 | Acc(val) 0.1074 |
+Epoch 00093 | Loss(train) 3.5358 | Acc(train) 0.1032 | Acc(val) 0.1074 |
+Epoch 00094 | Loss(train) 3.5265 | Acc(train) 0.1053 | Acc(val) 0.1085 |
+Epoch 00095 | Loss(train) 3.5631 | Acc(train) 0.1128 | Acc(val) 0.1128 |
+Epoch 00096 | Loss(train) 3.5465 | Acc(train) 0.1082 | Acc(val) 0.1181 |
+Epoch 00097 | Loss(train) 3.5553 | Acc(train) 0.1149 | Acc(val) 0.1213 |*
+Epoch 00098 | Loss(train) 3.5313 | Acc(train) 0.1096 | Acc(val) 0.1138 |
+Epoch 00099 | Loss(train) 3.5303 | Acc(train) 0.1085 | Acc(val) 0.1096 |
+Epoch 00100 | Loss(train) 3.5445 | Acc(train) 0.1113 | Acc(val) 0.1064 |
+Epoch 00101 | Loss(train) 3.5332 | Acc(train) 0.1053 | Acc(val) 0.1064 |
+Epoch 00102 | Loss(train) 3.5446 | Acc(train) 0.1067 | Acc(val) 0.1096 |
+Epoch 00103 | Loss(train) 3.5204 | Acc(train) 0.1053 | Acc(val) 0.1191 |
+Epoch 00104 | Loss(train) 3.5421 | Acc(train) 0.1113 | Acc(val) 0.1106 |
+Epoch 00105 | Loss(train) 3.5448 | Acc(train) 0.1050 | Acc(val) 0.1106 |
+Epoch 00106 | Loss(train) 3.5111 | Acc(train) 0.1138 | Acc(val) 0.1128 |
+Epoch 00107 | Loss(train) 3.5674 | Acc(train) 0.1131 | Acc(val) 0.1181 |
+Epoch 00108 | Loss(train) 3.5293 | Acc(train) 0.1085 | Acc(val) 0.1245 |*
+Epoch 00109 | Loss(train) 3.5058 | Acc(train) 0.1145 | Acc(val) 0.1319 |*
+Epoch 00110 | Loss(train) 3.5462 | Acc(train) 0.1067 | Acc(val) 0.1309 |
+Epoch 00111 | Loss(train) 3.5437 | Acc(train) 0.1142 | Acc(val) 0.1362 |*
+Epoch 00112 | Loss(train) 3.5180 | Acc(train) 0.1131 | Acc(val) 0.1415 |*
+Epoch 00113 | Loss(train) 3.5103 | Acc(train) 0.1106 | Acc(val) 0.1447 |*
+Epoch 00114 | Loss(train) 3.5221 | Acc(train) 0.1050 | Acc(val) 0.1383 |
+Epoch 00115 | Loss(train) 3.5024 | Acc(train) 0.1156 | Acc(val) 0.1447 |
+Epoch 00116 | Loss(train) 3.6037 | Acc(train) 0.1082 | Acc(val) 0.1489 |*
+Epoch 00117 | Loss(train) 3.5523 | Acc(train) 0.1199 | Acc(val) 0.1585 |*
+Epoch 00118 | Loss(train) 3.5308 | Acc(train) 0.1195 | Acc(val) 0.1628 |*
+Epoch 00119 | Loss(train) 3.5178 | Acc(train) 0.1202 | Acc(val) 0.1649 |*
+Epoch 00120 | Loss(train) 3.5287 | Acc(train) 0.1202 | Acc(val) 0.1638 |
+Epoch 00121 | Loss(train) 3.5198 | Acc(train) 0.1160 | Acc(val) 0.1596 |
+Epoch 00122 | Loss(train) 3.5336 | Acc(train) 0.1121 | Acc(val) 0.1543 |
+Epoch 00123 | Loss(train) 3.5060 | Acc(train) 0.1191 | Acc(val) 0.1543 |
+Epoch 00124 | Loss(train) 3.5043 | Acc(train) 0.1163 | Acc(val) 0.1532 |
+Epoch 00125 | Loss(train) 3.5258 | Acc(train) 0.1195 | Acc(val) 0.1500 |
+Epoch 00126 | Loss(train) 3.5147 | Acc(train) 0.1177 | Acc(val) 0.1511 |
+Epoch 00127 | Loss(train) 3.5019 | Acc(train) 0.1184 | Acc(val) 0.1489 |
+Epoch 00128 | Loss(train) 3.5878 | Acc(train) 0.1050 | Acc(val) 0.1574 |
+Epoch 00129 | Loss(train) 3.6012 | Acc(train) 0.1128 | Acc(val) 0.1553 |
+Epoch 00130 | Loss(train) 3.5103 | Acc(train) 0.1191 | Acc(val) 0.1479 |
+Epoch 00131 | Loss(train) 3.5023 | Acc(train) 0.1113 | Acc(val) 0.1436 |
+Epoch 00132 | Loss(train) 3.5092 | Acc(train) 0.1121 | Acc(val) 0.1340 |
+Epoch 00133 | Loss(train) 3.5352 | Acc(train) 0.1152 | Acc(val) 0.1383 |
+Epoch 00134 | Loss(train) 3.5137 | Acc(train) 0.1167 | Acc(val) 0.1351 |
+Epoch 00135 | Loss(train) 3.5031 | Acc(train) 0.1287 | Acc(val) 0.1309 |
+Epoch 00136 | Loss(train) 3.5439 | Acc(train) 0.1135 | Acc(val) 0.1319 |
+Epoch 00137 | Loss(train) 3.5042 | Acc(train) 0.1099 | Acc(val) 0.1309 |
+Epoch 00138 | Loss(train) 3.4873 | Acc(train) 0.1138 | Acc(val) 0.1383 |
+Epoch 00139 | Loss(train) 3.5302 | Acc(train) 0.1206 | Acc(val) 0.1404 |
+Epoch 00140 | Loss(train) 3.5040 | Acc(train) 0.1209 | Acc(val) 0.1383 |
+Epoch 00141 | Loss(train) 3.5019 | Acc(train) 0.1170 | Acc(val) 0.1372 |
+Epoch 00142 | Loss(train) 3.4890 | Acc(train) 0.1199 | Acc(val) 0.1351 |
+Epoch 00143 | Loss(train) 3.5155 | Acc(train) 0.1188 | Acc(val) 0.1415 |
+Epoch 00144 | Loss(train) 3.5168 | Acc(train) 0.1209 | Acc(val) 0.1574 |
+Epoch 00145 | Loss(train) 3.5089 | Acc(train) 0.1163 | Acc(val) 0.1649 |
+Epoch 00146 | Loss(train) 3.5179 | Acc(train) 0.1117 | Acc(val) 0.1596 |
+Epoch 00147 | Loss(train) 3.5128 | Acc(train) 0.1223 | Acc(val) 0.1564 |
+Epoch 00148 | Loss(train) 3.5738 | Acc(train) 0.1195 | Acc(val) 0.1447 |
+Epoch 00149 | Loss(train) 3.5073 | Acc(train) 0.1174 | Acc(val) 0.1426 |
+Epoch 00150 | Loss(train) 3.5140 | Acc(train) 0.1337 | Acc(val) 0.1383 |
+Epoch 00151 | Loss(train) 3.4831 | Acc(train) 0.1163 | Acc(val) 0.1426 |
+Epoch 00152 | Loss(train) 3.4927 | Acc(train) 0.1184 | Acc(val) 0.1383 |
+Epoch 00153 | Loss(train) 3.5137 | Acc(train) 0.1167 | Acc(val) 0.1340 |
+Epoch 00154 | Loss(train) 3.4778 | Acc(train) 0.1121 | Acc(val) 0.1319 |
+Epoch 00155 | Loss(train) 3.4836 | Acc(train) 0.1160 | Acc(val) 0.1319 |
+Epoch 00156 | Loss(train) 3.5009 | Acc(train) 0.1106 | Acc(val) 0.1351 |
+Epoch 00157 | Loss(train) 3.5371 | Acc(train) 0.1156 | Acc(val) 0.1340 |
+Epoch 00158 | Loss(train) 3.4691 | Acc(train) 0.1170 | Acc(val) 0.1309 |
+Epoch 00159 | Loss(train) 3.4995 | Acc(train) 0.1234 | Acc(val) 0.1468 |
+Epoch 00160 | Loss(train) 3.5103 | Acc(train) 0.1170 | Acc(val) 0.1532 |
+Epoch 00161 | Loss(train) 3.4803 | Acc(train) 0.1223 | Acc(val) 0.1553 |
+Epoch 00162 | Loss(train) 3.4916 | Acc(train) 0.1128 | Acc(val) 0.1649 |
+Epoch 00163 | Loss(train) 3.4869 | Acc(train) 0.1195 | Acc(val) 0.1681 |*
+Epoch 00164 | Loss(train) 3.4984 | Acc(train) 0.1309 | Acc(val) 0.1745 |*
+Epoch 00165 | Loss(train) 3.4999 | Acc(train) 0.1213 | Acc(val) 0.1787 |*
+Epoch 00166 | Loss(train) 3.4695 | Acc(train) 0.1252 | Acc(val) 0.1851 |*
+Epoch 00167 | Loss(train) 3.4748 | Acc(train) 0.1213 | Acc(val) 0.1894 |*
+Epoch 00168 | Loss(train) 3.4943 | Acc(train) 0.1202 | Acc(val) 0.1851 |
+Epoch 00169 | Loss(train) 3.4904 | Acc(train) 0.1181 | Acc(val) 0.1830 |
+Epoch 00170 | Loss(train) 3.4642 | Acc(train) 0.1277 | Acc(val) 0.1766 |
+Epoch 00171 | Loss(train) 3.4876 | Acc(train) 0.1262 | Acc(val) 0.1745 |
+Epoch 00172 | Loss(train) 3.4962 | Acc(train) 0.1135 | Acc(val) 0.1702 |
+Epoch 00173 | Loss(train) 3.4863 | Acc(train) 0.1238 | Acc(val) 0.1649 |
+Epoch 00174 | Loss(train) 3.4617 | Acc(train) 0.1124 | Acc(val) 0.1649 |
+Epoch 00175 | Loss(train) 3.4956 | Acc(train) 0.1160 | Acc(val) 0.1532 |
+Epoch 00176 | Loss(train) 3.4830 | Acc(train) 0.1230 | Acc(val) 0.1468 |
+Epoch 00177 | Loss(train) 3.4559 | Acc(train) 0.1259 | Acc(val) 0.1404 |
+Epoch 00178 | Loss(train) 3.4864 | Acc(train) 0.1220 | Acc(val) 0.1383 |
+Epoch 00179 | Loss(train) 3.4795 | Acc(train) 0.1156 | Acc(val) 0.1372 |
+Epoch 00180 | Loss(train) 3.4957 | Acc(train) 0.1234 | Acc(val) 0.1479 |
+Epoch 00181 | Loss(train) 3.4692 | Acc(train) 0.1213 | Acc(val) 0.1521 |
+Epoch 00182 | Loss(train) 3.5159 | Acc(train) 0.1270 | Acc(val) 0.1532 |
+Epoch 00183 | Loss(train) 3.4814 | Acc(train) 0.1170 | Acc(val) 0.1426 |
+Epoch 00184 | Loss(train) 3.4703 | Acc(train) 0.1188 | Acc(val) 0.1436 |
+Epoch 00185 | Loss(train) 3.4906 | Acc(train) 0.1149 | Acc(val) 0.1426 |
+Epoch 00186 | Loss(train) 3.5002 | Acc(train) 0.1266 | Acc(val) 0.1553 |
+Epoch 00187 | Loss(train) 3.5675 | Acc(train) 0.1326 | Acc(val) 0.1532 |
+Epoch 00188 | Loss(train) 3.5185 | Acc(train) 0.1184 | Acc(val) 0.1606 |
+Epoch 00189 | Loss(train) 3.4660 | Acc(train) 0.1376 | Acc(val) 0.1617 |
+Epoch 00190 | Loss(train) 3.7245 | Acc(train) 0.1199 | Acc(val) 0.1734 |
+Epoch 00191 | Loss(train) 3.4863 | Acc(train) 0.1199 | Acc(val) 0.1638 |
+Epoch 00192 | Loss(train) 3.4988 | Acc(train) 0.1220 | Acc(val) 0.1574 |
+Epoch 00193 | Loss(train) 3.4550 | Acc(train) 0.1248 | Acc(val) 0.1532 |
+Epoch 00194 | Loss(train) 3.4643 | Acc(train) 0.1245 | Acc(val) 0.1511 |
+Epoch 00195 | Loss(train) 3.4615 | Acc(train) 0.1262 | Acc(val) 0.1532 |
+Epoch 00196 | Loss(train) 3.5134 | Acc(train) 0.1223 | Acc(val) 0.1574 |
+Epoch 00197 | Loss(train) 3.4742 | Acc(train) 0.1206 | Acc(val) 0.1574 |
+Epoch 00198 | Loss(train) 3.4742 | Acc(train) 0.1238 | Acc(val) 0.1532 |
+Epoch 00199 | Loss(train) 3.4613 | Acc(train) 0.1220 | Acc(val) 0.1457 |
+Epoch 00200 | Loss(train) 3.4774 | Acc(train) 0.1142 | Acc(val) 0.1404 |
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.2, 'cal_hidden_dim': 128}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 64, 'dropout': 0.8, 'norm': None, 'in_dim': 8710, 'out_dim': 70}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.001, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 707.00 MB
+GPU Memory Reserved: 2154.00 MB
+Exp 2/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 4.2564 | Acc(train) 0.0227 | Acc(val) 0.0351 |*
+Epoch 00002 | Loss(train) 4.2436 | Acc(train) 0.0390 | Acc(val) 0.0351 |
+Epoch 00003 | Loss(train) 4.2257 | Acc(train) 0.0436 | Acc(val) 0.0351 |
+Epoch 00004 | Loss(train) 4.2061 | Acc(train) 0.0489 | Acc(val) 0.0351 |
+Epoch 00005 | Loss(train) 4.1845 | Acc(train) 0.0461 | Acc(val) 0.0351 |
+Epoch 00006 | Loss(train) 4.1562 | Acc(train) 0.0496 | Acc(val) 0.0351 |
+Epoch 00007 | Loss(train) 4.1335 | Acc(train) 0.0493 | Acc(val) 0.0351 |
+Epoch 00008 | Loss(train) 4.1101 | Acc(train) 0.0479 | Acc(val) 0.0351 |
+Epoch 00009 | Loss(train) 4.0887 | Acc(train) 0.0404 | Acc(val) 0.0351 |
+Epoch 00010 | Loss(train) 4.0657 | Acc(train) 0.0465 | Acc(val) 0.0362 |*
+Epoch 00011 | Loss(train) 4.0588 | Acc(train) 0.0500 | Acc(val) 0.0436 |*
+Epoch 00012 | Loss(train) 4.0542 | Acc(train) 0.0546 | Acc(val) 0.0606 |*
+Epoch 00013 | Loss(train) 4.0289 | Acc(train) 0.0496 | Acc(val) 0.0670 |*
+Epoch 00014 | Loss(train) 4.0446 | Acc(train) 0.0539 | Acc(val) 0.0713 |*
+Epoch 00015 | Loss(train) 4.0033 | Acc(train) 0.0532 | Acc(val) 0.0723 |*
+Epoch 00016 | Loss(train) 4.0039 | Acc(train) 0.0560 | Acc(val) 0.0723 |
+Epoch 00017 | Loss(train) 3.9932 | Acc(train) 0.0599 | Acc(val) 0.0723 |
+Epoch 00018 | Loss(train) 3.9723 | Acc(train) 0.0578 | Acc(val) 0.0734 |*
+Epoch 00019 | Loss(train) 3.9946 | Acc(train) 0.0599 | Acc(val) 0.0755 |*
+Epoch 00020 | Loss(train) 3.9785 | Acc(train) 0.0606 | Acc(val) 0.0766 |*
+Epoch 00021 | Loss(train) 3.9649 | Acc(train) 0.0670 | Acc(val) 0.0777 |*
+Epoch 00022 | Loss(train) 3.9815 | Acc(train) 0.0589 | Acc(val) 0.0777 |
+Epoch 00023 | Loss(train) 3.9591 | Acc(train) 0.0656 | Acc(val) 0.0777 |
+Epoch 00024 | Loss(train) 3.9497 | Acc(train) 0.0663 | Acc(val) 0.0787 |*
+Epoch 00025 | Loss(train) 3.9475 | Acc(train) 0.0596 | Acc(val) 0.0787 |
+Epoch 00026 | Loss(train) 3.9460 | Acc(train) 0.0624 | Acc(val) 0.0787 |
+Epoch 00027 | Loss(train) 3.9415 | Acc(train) 0.0663 | Acc(val) 0.0787 |
+Epoch 00028 | Loss(train) 3.9261 | Acc(train) 0.0702 | Acc(val) 0.0787 |
+Epoch 00029 | Loss(train) 3.9200 | Acc(train) 0.0738 | Acc(val) 0.0787 |
+Epoch 00030 | Loss(train) 3.9224 | Acc(train) 0.0645 | Acc(val) 0.0787 |
+Epoch 00031 | Loss(train) 3.9041 | Acc(train) 0.0755 | Acc(val) 0.0787 |
+Epoch 00032 | Loss(train) 3.8995 | Acc(train) 0.0730 | Acc(val) 0.0787 |
+Epoch 00033 | Loss(train) 3.8956 | Acc(train) 0.0723 | Acc(val) 0.0798 |*
+Epoch 00034 | Loss(train) 3.9010 | Acc(train) 0.0755 | Acc(val) 0.0798 |
+Epoch 00035 | Loss(train) 3.8763 | Acc(train) 0.0780 | Acc(val) 0.0798 |
+Epoch 00036 | Loss(train) 3.8644 | Acc(train) 0.0826 | Acc(val) 0.0798 |
+Epoch 00037 | Loss(train) 3.8683 | Acc(train) 0.0833 | Acc(val) 0.0798 |
+Epoch 00038 | Loss(train) 3.8459 | Acc(train) 0.0823 | Acc(val) 0.0798 |
+Epoch 00039 | Loss(train) 3.8471 | Acc(train) 0.0872 | Acc(val) 0.0798 |
+Epoch 00040 | Loss(train) 3.8384 | Acc(train) 0.0865 | Acc(val) 0.0798 |
+Epoch 00041 | Loss(train) 3.8559 | Acc(train) 0.0819 | Acc(val) 0.0798 |
+Epoch 00042 | Loss(train) 3.7963 | Acc(train) 0.0901 | Acc(val) 0.0798 |
+Epoch 00043 | Loss(train) 3.7818 | Acc(train) 0.0943 | Acc(val) 0.0809 |*
+Epoch 00044 | Loss(train) 3.7814 | Acc(train) 0.0901 | Acc(val) 0.0819 |*
+Epoch 00045 | Loss(train) 3.7717 | Acc(train) 0.0936 | Acc(val) 0.0862 |*
+Epoch 00046 | Loss(train) 3.7978 | Acc(train) 0.0947 | Acc(val) 0.0883 |*
+Epoch 00047 | Loss(train) 3.7402 | Acc(train) 0.0933 | Acc(val) 0.0904 |*
+Epoch 00048 | Loss(train) 3.7284 | Acc(train) 0.0848 | Acc(val) 0.0872 |
+Epoch 00049 | Loss(train) 3.7321 | Acc(train) 0.0915 | Acc(val) 0.0809 |
+Epoch 00050 | Loss(train) 3.7182 | Acc(train) 0.0979 | Acc(val) 0.0798 |
+Epoch 00051 | Loss(train) 3.7051 | Acc(train) 0.0947 | Acc(val) 0.0798 |
+Epoch 00052 | Loss(train) 3.7787 | Acc(train) 0.0936 | Acc(val) 0.0819 |
+Epoch 00053 | Loss(train) 3.7135 | Acc(train) 0.0933 | Acc(val) 0.0819 |
+Epoch 00054 | Loss(train) 3.6849 | Acc(train) 0.0879 | Acc(val) 0.0819 |
+Epoch 00055 | Loss(train) 3.6808 | Acc(train) 0.1004 | Acc(val) 0.0819 |
+Epoch 00056 | Loss(train) 3.6772 | Acc(train) 0.0918 | Acc(val) 0.0798 |
+Epoch 00057 | Loss(train) 3.6634 | Acc(train) 0.1021 | Acc(val) 0.0787 |
+Epoch 00058 | Loss(train) 3.6858 | Acc(train) 0.0993 | Acc(val) 0.0798 |
+Epoch 00059 | Loss(train) 3.6638 | Acc(train) 0.0936 | Acc(val) 0.0798 |
+Epoch 00060 | Loss(train) 3.6718 | Acc(train) 0.0929 | Acc(val) 0.0798 |
+Epoch 00061 | Loss(train) 3.6699 | Acc(train) 0.0975 | Acc(val) 0.0798 |
+Epoch 00062 | Loss(train) 3.6447 | Acc(train) 0.0933 | Acc(val) 0.0798 |
+Epoch 00063 | Loss(train) 3.6467 | Acc(train) 0.0975 | Acc(val) 0.0798 |
+Epoch 00064 | Loss(train) 3.6245 | Acc(train) 0.1032 | Acc(val) 0.0798 |
+Epoch 00065 | Loss(train) 3.6202 | Acc(train) 0.1011 | Acc(val) 0.0809 |
+Epoch 00066 | Loss(train) 3.6100 | Acc(train) 0.0993 | Acc(val) 0.0819 |
+Epoch 00067 | Loss(train) 3.6482 | Acc(train) 0.0996 | Acc(val) 0.0819 |
+Epoch 00068 | Loss(train) 3.6446 | Acc(train) 0.0975 | Acc(val) 0.0819 |
+Epoch 00069 | Loss(train) 3.6204 | Acc(train) 0.0957 | Acc(val) 0.0819 |
+Epoch 00070 | Loss(train) 3.6300 | Acc(train) 0.0918 | Acc(val) 0.0851 |
+Epoch 00071 | Loss(train) 3.5831 | Acc(train) 0.1018 | Acc(val) 0.0872 |
+Epoch 00072 | Loss(train) 3.5907 | Acc(train) 0.1011 | Acc(val) 0.0872 |
+Epoch 00073 | Loss(train) 3.6590 | Acc(train) 0.1039 | Acc(val) 0.0840 |
+Epoch 00074 | Loss(train) 3.5860 | Acc(train) 0.0989 | Acc(val) 0.0830 |
+Epoch 00075 | Loss(train) 3.6663 | Acc(train) 0.1014 | Acc(val) 0.0936 |*
+Epoch 00076 | Loss(train) 3.6397 | Acc(train) 0.0996 | Acc(val) 0.0968 |*
+Epoch 00077 | Loss(train) 3.5862 | Acc(train) 0.1021 | Acc(val) 0.1064 |*
+Epoch 00078 | Loss(train) 3.5790 | Acc(train) 0.0996 | Acc(val) 0.1043 |
+Epoch 00079 | Loss(train) 3.5559 | Acc(train) 0.0993 | Acc(val) 0.1011 |
+Epoch 00080 | Loss(train) 3.5718 | Acc(train) 0.1018 | Acc(val) 0.0979 |
+Epoch 00081 | Loss(train) 3.5803 | Acc(train) 0.1000 | Acc(val) 0.0947 |
+Epoch 00082 | Loss(train) 3.5720 | Acc(train) 0.1060 | Acc(val) 0.0926 |
+Epoch 00083 | Loss(train) 3.5504 | Acc(train) 0.1092 | Acc(val) 0.0904 |
+Epoch 00084 | Loss(train) 3.5730 | Acc(train) 0.1046 | Acc(val) 0.0851 |
+Epoch 00085 | Loss(train) 3.5809 | Acc(train) 0.0965 | Acc(val) 0.0819 |
+Epoch 00086 | Loss(train) 3.5929 | Acc(train) 0.0947 | Acc(val) 0.0819 |
+Epoch 00087 | Loss(train) 3.5564 | Acc(train) 0.1078 | Acc(val) 0.0872 |
+Epoch 00088 | Loss(train) 3.5719 | Acc(train) 0.1028 | Acc(val) 0.0915 |
+Epoch 00089 | Loss(train) 3.5465 | Acc(train) 0.1085 | Acc(val) 0.0989 |
+Epoch 00090 | Loss(train) 3.5559 | Acc(train) 0.1085 | Acc(val) 0.0989 |
+Epoch 00091 | Loss(train) 3.5433 | Acc(train) 0.1064 | Acc(val) 0.0915 |
+Epoch 00092 | Loss(train) 3.5564 | Acc(train) 0.1131 | Acc(val) 0.0894 |
+Epoch 00093 | Loss(train) 3.5480 | Acc(train) 0.1099 | Acc(val) 0.0851 |
+Epoch 00094 | Loss(train) 3.5588 | Acc(train) 0.1021 | Acc(val) 0.0883 |
+Epoch 00095 | Loss(train) 3.5488 | Acc(train) 0.1011 | Acc(val) 0.0915 |
+Epoch 00096 | Loss(train) 3.5585 | Acc(train) 0.1089 | Acc(val) 0.0989 |
+Epoch 00097 | Loss(train) 3.5429 | Acc(train) 0.1082 | Acc(val) 0.1032 |
+Epoch 00098 | Loss(train) 3.5334 | Acc(train) 0.1089 | Acc(val) 0.1032 |
+Epoch 00099 | Loss(train) 3.5449 | Acc(train) 0.1071 | Acc(val) 0.1074 |*
+Epoch 00100 | Loss(train) 3.5209 | Acc(train) 0.1135 | Acc(val) 0.1096 |*
+Epoch 00101 | Loss(train) 3.5291 | Acc(train) 0.1074 | Acc(val) 0.1096 |
+Epoch 00102 | Loss(train) 3.5512 | Acc(train) 0.1103 | Acc(val) 0.1106 |*
+Epoch 00103 | Loss(train) 3.5318 | Acc(train) 0.1156 | Acc(val) 0.1096 |
+Epoch 00104 | Loss(train) 3.5298 | Acc(train) 0.1124 | Acc(val) 0.1064 |
+Epoch 00105 | Loss(train) 3.5051 | Acc(train) 0.1060 | Acc(val) 0.1117 |*
+Epoch 00106 | Loss(train) 3.5630 | Acc(train) 0.1067 | Acc(val) 0.1096 |
+Epoch 00107 | Loss(train) 3.5382 | Acc(train) 0.1174 | Acc(val) 0.1096 |
+Epoch 00108 | Loss(train) 3.5264 | Acc(train) 0.1067 | Acc(val) 0.1085 |
+Epoch 00109 | Loss(train) 3.5269 | Acc(train) 0.1113 | Acc(val) 0.1106 |
+Epoch 00110 | Loss(train) 3.5404 | Acc(train) 0.1057 | Acc(val) 0.1085 |
+Epoch 00111 | Loss(train) 3.5252 | Acc(train) 0.1117 | Acc(val) 0.1064 |
+Epoch 00112 | Loss(train) 3.5476 | Acc(train) 0.1160 | Acc(val) 0.0989 |
+Epoch 00113 | Loss(train) 3.5503 | Acc(train) 0.1050 | Acc(val) 0.0926 |
+Epoch 00114 | Loss(train) 3.5280 | Acc(train) 0.1113 | Acc(val) 0.0926 |
+Epoch 00115 | Loss(train) 3.5268 | Acc(train) 0.1067 | Acc(val) 0.1043 |
+Epoch 00116 | Loss(train) 3.5358 | Acc(train) 0.1160 | Acc(val) 0.1096 |
+Epoch 00117 | Loss(train) 3.5473 | Acc(train) 0.1067 | Acc(val) 0.1064 |
+Epoch 00118 | Loss(train) 3.5147 | Acc(train) 0.1121 | Acc(val) 0.0915 |
+Epoch 00119 | Loss(train) 3.5204 | Acc(train) 0.1089 | Acc(val) 0.0883 |
+Epoch 00120 | Loss(train) 3.5936 | Acc(train) 0.1131 | Acc(val) 0.0947 |
+Epoch 00121 | Loss(train) 3.5179 | Acc(train) 0.1199 | Acc(val) 0.1043 |
+Epoch 00122 | Loss(train) 3.5174 | Acc(train) 0.1220 | Acc(val) 0.1106 |
+Epoch 00123 | Loss(train) 3.5246 | Acc(train) 0.1177 | Acc(val) 0.1181 |*
+Epoch 00124 | Loss(train) 3.5291 | Acc(train) 0.1071 | Acc(val) 0.1138 |
+Epoch 00125 | Loss(train) 3.5325 | Acc(train) 0.1092 | Acc(val) 0.1085 |
+Epoch 00126 | Loss(train) 3.5189 | Acc(train) 0.1053 | Acc(val) 0.1138 |
+Epoch 00127 | Loss(train) 3.5335 | Acc(train) 0.1113 | Acc(val) 0.1223 |*
+Epoch 00128 | Loss(train) 3.5122 | Acc(train) 0.1060 | Acc(val) 0.1234 |*
+Epoch 00129 | Loss(train) 3.5257 | Acc(train) 0.1131 | Acc(val) 0.1255 |*
+Epoch 00130 | Loss(train) 3.5308 | Acc(train) 0.1053 | Acc(val) 0.1255 |
+Epoch 00131 | Loss(train) 3.5024 | Acc(train) 0.1191 | Acc(val) 0.1287 |*
+Epoch 00132 | Loss(train) 3.5043 | Acc(train) 0.1206 | Acc(val) 0.1287 |
+Epoch 00133 | Loss(train) 3.5411 | Acc(train) 0.1213 | Acc(val) 0.1245 |
+Epoch 00134 | Loss(train) 3.5119 | Acc(train) 0.1202 | Acc(val) 0.1223 |
+Epoch 00135 | Loss(train) 3.5442 | Acc(train) 0.1131 | Acc(val) 0.1223 |
+Epoch 00136 | Loss(train) 3.5142 | Acc(train) 0.1195 | Acc(val) 0.1202 |
+Epoch 00137 | Loss(train) 3.5216 | Acc(train) 0.1163 | Acc(val) 0.1181 |
+Epoch 00138 | Loss(train) 3.5220 | Acc(train) 0.1181 | Acc(val) 0.1202 |
+Epoch 00139 | Loss(train) 3.5000 | Acc(train) 0.1121 | Acc(val) 0.1128 |
+Epoch 00140 | Loss(train) 3.5010 | Acc(train) 0.1106 | Acc(val) 0.1106 |
+Epoch 00141 | Loss(train) 3.4942 | Acc(train) 0.1131 | Acc(val) 0.1149 |
+Epoch 00142 | Loss(train) 3.4926 | Acc(train) 0.1124 | Acc(val) 0.1213 |
+Epoch 00143 | Loss(train) 3.4931 | Acc(train) 0.1145 | Acc(val) 0.1340 |*
+Epoch 00144 | Loss(train) 3.4954 | Acc(train) 0.1216 | Acc(val) 0.1553 |*
+Epoch 00145 | Loss(train) 3.4940 | Acc(train) 0.1262 | Acc(val) 0.1660 |*
+Epoch 00146 | Loss(train) 3.5281 | Acc(train) 0.1230 | Acc(val) 0.1713 |*
+Epoch 00147 | Loss(train) 3.5064 | Acc(train) 0.1181 | Acc(val) 0.1681 |
+Epoch 00148 | Loss(train) 3.5029 | Acc(train) 0.1230 | Acc(val) 0.1532 |
+Epoch 00149 | Loss(train) 3.5095 | Acc(train) 0.1145 | Acc(val) 0.1447 |
+Epoch 00150 | Loss(train) 3.4983 | Acc(train) 0.1188 | Acc(val) 0.1362 |
+Epoch 00151 | Loss(train) 3.5053 | Acc(train) 0.1174 | Acc(val) 0.1298 |
+Epoch 00152 | Loss(train) 3.4933 | Acc(train) 0.1117 | Acc(val) 0.1298 |
+Epoch 00153 | Loss(train) 3.5039 | Acc(train) 0.1035 | Acc(val) 0.1298 |
+Epoch 00154 | Loss(train) 3.5451 | Acc(train) 0.1223 | Acc(val) 0.1362 |
+Epoch 00155 | Loss(train) 3.5003 | Acc(train) 0.1277 | Acc(val) 0.1426 |
+Epoch 00156 | Loss(train) 3.5041 | Acc(train) 0.1177 | Acc(val) 0.1447 |
+Epoch 00157 | Loss(train) 3.5140 | Acc(train) 0.1177 | Acc(val) 0.1447 |
+Epoch 00158 | Loss(train) 3.5041 | Acc(train) 0.1252 | Acc(val) 0.1457 |
+Epoch 00159 | Loss(train) 3.4987 | Acc(train) 0.1238 | Acc(val) 0.1383 |
+Epoch 00160 | Loss(train) 3.4808 | Acc(train) 0.1195 | Acc(val) 0.1298 |
+Epoch 00161 | Loss(train) 3.4990 | Acc(train) 0.1124 | Acc(val) 0.1191 |
+Epoch 00162 | Loss(train) 3.4688 | Acc(train) 0.1170 | Acc(val) 0.1149 |
+Epoch 00163 | Loss(train) 3.5364 | Acc(train) 0.1099 | Acc(val) 0.1149 |
+Epoch 00164 | Loss(train) 3.4969 | Acc(train) 0.1170 | Acc(val) 0.1181 |
+Epoch 00165 | Loss(train) 3.4907 | Acc(train) 0.1163 | Acc(val) 0.1245 |
+Epoch 00166 | Loss(train) 3.4754 | Acc(train) 0.1199 | Acc(val) 0.1340 |
+Epoch 00167 | Loss(train) 3.5254 | Acc(train) 0.1131 | Acc(val) 0.1436 |
+Epoch 00168 | Loss(train) 3.4993 | Acc(train) 0.1273 | Acc(val) 0.1564 |
+Epoch 00169 | Loss(train) 3.4930 | Acc(train) 0.1138 | Acc(val) 0.1670 |
+Epoch 00170 | Loss(train) 3.4867 | Acc(train) 0.1156 | Acc(val) 0.1670 |
+Epoch 00171 | Loss(train) 3.4850 | Acc(train) 0.1195 | Acc(val) 0.1691 |
+Epoch 00172 | Loss(train) 3.4912 | Acc(train) 0.1266 | Acc(val) 0.1777 |*
+Epoch 00173 | Loss(train) 3.5213 | Acc(train) 0.1270 | Acc(val) 0.1798 |*
+Epoch 00174 | Loss(train) 3.4866 | Acc(train) 0.1277 | Acc(val) 0.1851 |*
+Epoch 00175 | Loss(train) 3.5013 | Acc(train) 0.1177 | Acc(val) 0.1894 |*
+Epoch 00176 | Loss(train) 3.4986 | Acc(train) 0.1252 | Acc(val) 0.1915 |*
+Epoch 00177 | Loss(train) 3.5439 | Acc(train) 0.1262 | Acc(val) 0.1851 |
+Epoch 00178 | Loss(train) 3.4901 | Acc(train) 0.1191 | Acc(val) 0.1851 |
+Epoch 00179 | Loss(train) 3.5218 | Acc(train) 0.1209 | Acc(val) 0.1840 |
+Epoch 00180 | Loss(train) 3.5147 | Acc(train) 0.1199 | Acc(val) 0.1883 |
+Epoch 00181 | Loss(train) 3.4807 | Acc(train) 0.1262 | Acc(val) 0.1894 |
+Epoch 00182 | Loss(train) 3.4951 | Acc(train) 0.1184 | Acc(val) 0.1840 |
+Epoch 00183 | Loss(train) 3.4974 | Acc(train) 0.1234 | Acc(val) 0.1787 |
+Epoch 00184 | Loss(train) 3.4993 | Acc(train) 0.1135 | Acc(val) 0.1670 |
+Epoch 00185 | Loss(train) 3.4977 | Acc(train) 0.1188 | Acc(val) 0.1500 |
+Epoch 00186 | Loss(train) 3.4787 | Acc(train) 0.1284 | Acc(val) 0.1436 |
+Epoch 00187 | Loss(train) 3.6707 | Acc(train) 0.1227 | Acc(val) 0.1415 |
+Epoch 00188 | Loss(train) 3.4944 | Acc(train) 0.1273 | Acc(val) 0.1415 |
+Epoch 00189 | Loss(train) 3.4873 | Acc(train) 0.1291 | Acc(val) 0.1543 |
+Epoch 00190 | Loss(train) 3.4833 | Acc(train) 0.1195 | Acc(val) 0.1585 |
+Epoch 00191 | Loss(train) 3.4953 | Acc(train) 0.1167 | Acc(val) 0.1596 |
+Epoch 00192 | Loss(train) 3.4965 | Acc(train) 0.1319 | Acc(val) 0.1660 |
+Epoch 00193 | Loss(train) 3.4848 | Acc(train) 0.1241 | Acc(val) 0.1702 |
+Epoch 00194 | Loss(train) 3.4772 | Acc(train) 0.1241 | Acc(val) 0.1713 |
+Epoch 00195 | Loss(train) 3.5022 | Acc(train) 0.1241 | Acc(val) 0.1755 |
+Epoch 00196 | Loss(train) 3.4858 | Acc(train) 0.1266 | Acc(val) 0.1809 |
+Epoch 00197 | Loss(train) 3.4725 | Acc(train) 0.1312 | Acc(val) 0.1809 |
+Epoch 00198 | Loss(train) 3.4606 | Acc(train) 0.1284 | Acc(val) 0.1851 |
+Epoch 00199 | Loss(train) 3.4627 | Acc(train) 0.1199 | Acc(val) 0.1883 |
+Epoch 00200 | Loss(train) 3.4939 | Acc(train) 0.1312 | Acc(val) 0.1840 |
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.2, 'cal_hidden_dim': 128}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 64, 'dropout': 0.8, 'norm': None, 'in_dim': 8710, 'out_dim': 70}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.001, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 706.29 MB
+GPU Memory Reserved: 2156.00 MB
+Exp 3/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 4.2433 | Acc(train) 0.0223 | Acc(val) 0.0245 |*
+Epoch 00002 | Loss(train) 4.2312 | Acc(train) 0.0220 | Acc(val) 0.0553 |*
+Epoch 00003 | Loss(train) 4.2160 | Acc(train) 0.0333 | Acc(val) 0.0553 |
+Epoch 00004 | Loss(train) 4.1990 | Acc(train) 0.0340 | Acc(val) 0.0649 |*
+Epoch 00005 | Loss(train) 4.1798 | Acc(train) 0.0489 | Acc(val) 0.0713 |*
+Epoch 00006 | Loss(train) 4.1556 | Acc(train) 0.0404 | Acc(val) 0.0809 |*
+Epoch 00007 | Loss(train) 4.2165 | Acc(train) 0.0404 | Acc(val) 0.0511 |
+Epoch 00008 | Loss(train) 4.1349 | Acc(train) 0.0454 | Acc(val) 0.0436 |
+Epoch 00009 | Loss(train) 4.0843 | Acc(train) 0.0440 | Acc(val) 0.0426 |
+Epoch 00010 | Loss(train) 4.0721 | Acc(train) 0.0493 | Acc(val) 0.0521 |
+Epoch 00011 | Loss(train) 4.0668 | Acc(train) 0.0582 | Acc(val) 0.0681 |
+Epoch 00012 | Loss(train) 4.0447 | Acc(train) 0.0511 | Acc(val) 0.0766 |
+Epoch 00013 | Loss(train) 4.0493 | Acc(train) 0.0454 | Acc(val) 0.0787 |
+Epoch 00014 | Loss(train) 4.0150 | Acc(train) 0.0535 | Acc(val) 0.0798 |
+Epoch 00015 | Loss(train) 4.0044 | Acc(train) 0.0525 | Acc(val) 0.0798 |
+Epoch 00016 | Loss(train) 4.0121 | Acc(train) 0.0589 | Acc(val) 0.0777 |
+Epoch 00017 | Loss(train) 3.9952 | Acc(train) 0.0567 | Acc(val) 0.0745 |
+Epoch 00018 | Loss(train) 3.9807 | Acc(train) 0.0596 | Acc(val) 0.0670 |
+Epoch 00019 | Loss(train) 3.9779 | Acc(train) 0.0645 | Acc(val) 0.0660 |
+Epoch 00020 | Loss(train) 3.9681 | Acc(train) 0.0702 | Acc(val) 0.0660 |
+Epoch 00021 | Loss(train) 3.9798 | Acc(train) 0.0628 | Acc(val) 0.0702 |
+Epoch 00022 | Loss(train) 3.9678 | Acc(train) 0.0617 | Acc(val) 0.0745 |
+Epoch 00023 | Loss(train) 3.9722 | Acc(train) 0.0585 | Acc(val) 0.0777 |
+Epoch 00024 | Loss(train) 3.9551 | Acc(train) 0.0613 | Acc(val) 0.0798 |
+Epoch 00025 | Loss(train) 3.9631 | Acc(train) 0.0599 | Acc(val) 0.0798 |
+Epoch 00026 | Loss(train) 3.9545 | Acc(train) 0.0667 | Acc(val) 0.0798 |
+Epoch 00027 | Loss(train) 3.9298 | Acc(train) 0.0670 | Acc(val) 0.0798 |
+Epoch 00028 | Loss(train) 3.9524 | Acc(train) 0.0699 | Acc(val) 0.0798 |
+Epoch 00029 | Loss(train) 3.9227 | Acc(train) 0.0699 | Acc(val) 0.0798 |
+Epoch 00030 | Loss(train) 3.9170 | Acc(train) 0.0745 | Acc(val) 0.0798 |
+Epoch 00031 | Loss(train) 3.9076 | Acc(train) 0.0755 | Acc(val) 0.0798 |
+Epoch 00032 | Loss(train) 3.9087 | Acc(train) 0.0691 | Acc(val) 0.0798 |
+Epoch 00033 | Loss(train) 3.8970 | Acc(train) 0.0727 | Acc(val) 0.0798 |
+Epoch 00034 | Loss(train) 3.8959 | Acc(train) 0.0762 | Acc(val) 0.0798 |
+Epoch 00035 | Loss(train) 3.8815 | Acc(train) 0.0784 | Acc(val) 0.0798 |
+Epoch 00036 | Loss(train) 3.8908 | Acc(train) 0.0759 | Acc(val) 0.0798 |
+Epoch 00037 | Loss(train) 3.8558 | Acc(train) 0.0752 | Acc(val) 0.0798 |
+Epoch 00038 | Loss(train) 3.8517 | Acc(train) 0.0777 | Acc(val) 0.0798 |
+Epoch 00039 | Loss(train) 3.8453 | Acc(train) 0.0833 | Acc(val) 0.0798 |
+Epoch 00040 | Loss(train) 3.8372 | Acc(train) 0.0904 | Acc(val) 0.0798 |
+Epoch 00041 | Loss(train) 3.8190 | Acc(train) 0.0805 | Acc(val) 0.0798 |
+Epoch 00042 | Loss(train) 3.8060 | Acc(train) 0.0858 | Acc(val) 0.0798 |
+Epoch 00043 | Loss(train) 3.7930 | Acc(train) 0.0848 | Acc(val) 0.0798 |
+Epoch 00044 | Loss(train) 3.8020 | Acc(train) 0.0844 | Acc(val) 0.0798 |
+Epoch 00045 | Loss(train) 3.7576 | Acc(train) 0.0876 | Acc(val) 0.0798 |
+Epoch 00046 | Loss(train) 3.7389 | Acc(train) 0.0908 | Acc(val) 0.0798 |
+Epoch 00047 | Loss(train) 3.7420 | Acc(train) 0.0915 | Acc(val) 0.0798 |
+Epoch 00048 | Loss(train) 3.7369 | Acc(train) 0.0879 | Acc(val) 0.0798 |
+Epoch 00049 | Loss(train) 3.7209 | Acc(train) 0.1011 | Acc(val) 0.0798 |
+Epoch 00050 | Loss(train) 3.7227 | Acc(train) 0.0933 | Acc(val) 0.0798 |
+Epoch 00051 | Loss(train) 3.7216 | Acc(train) 0.0897 | Acc(val) 0.0798 |
+Epoch 00052 | Loss(train) 3.8343 | Acc(train) 0.0858 | Acc(val) 0.0809 |
+Epoch 00053 | Loss(train) 3.6950 | Acc(train) 0.0954 | Acc(val) 0.0819 |*
+Epoch 00054 | Loss(train) 3.6687 | Acc(train) 0.0915 | Acc(val) 0.0819 |
+Epoch 00055 | Loss(train) 3.6727 | Acc(train) 0.0975 | Acc(val) 0.0819 |
+Epoch 00056 | Loss(train) 3.6863 | Acc(train) 0.0883 | Acc(val) 0.0809 |
+Epoch 00057 | Loss(train) 3.6958 | Acc(train) 0.0947 | Acc(val) 0.0809 |
+Epoch 00058 | Loss(train) 3.6659 | Acc(train) 0.0954 | Acc(val) 0.0809 |
+Epoch 00059 | Loss(train) 3.6389 | Acc(train) 0.0929 | Acc(val) 0.0819 |
+Epoch 00060 | Loss(train) 3.6504 | Acc(train) 0.0989 | Acc(val) 0.0830 |*
+Epoch 00061 | Loss(train) 3.6286 | Acc(train) 0.1043 | Acc(val) 0.0819 |
+Epoch 00062 | Loss(train) 3.6518 | Acc(train) 0.0965 | Acc(val) 0.0809 |
+Epoch 00063 | Loss(train) 3.6510 | Acc(train) 0.1011 | Acc(val) 0.0809 |
+Epoch 00064 | Loss(train) 3.5981 | Acc(train) 0.1000 | Acc(val) 0.0830 |
+Epoch 00065 | Loss(train) 3.6053 | Acc(train) 0.1014 | Acc(val) 0.0840 |*
+Epoch 00066 | Loss(train) 3.5983 | Acc(train) 0.1014 | Acc(val) 0.0894 |*
+Epoch 00067 | Loss(train) 3.5905 | Acc(train) 0.1014 | Acc(val) 0.0883 |
+Epoch 00068 | Loss(train) 3.5940 | Acc(train) 0.0996 | Acc(val) 0.0851 |
+Epoch 00069 | Loss(train) 3.5990 | Acc(train) 0.0975 | Acc(val) 0.0819 |
+Epoch 00070 | Loss(train) 3.6051 | Acc(train) 0.1039 | Acc(val) 0.0819 |
+Epoch 00071 | Loss(train) 3.5581 | Acc(train) 0.0986 | Acc(val) 0.0840 |
+Epoch 00072 | Loss(train) 3.5744 | Acc(train) 0.0979 | Acc(val) 0.0840 |
+Epoch 00073 | Loss(train) 3.5858 | Acc(train) 0.1025 | Acc(val) 0.0840 |
+Epoch 00074 | Loss(train) 3.5812 | Acc(train) 0.1028 | Acc(val) 0.0840 |
+Epoch 00075 | Loss(train) 3.5751 | Acc(train) 0.1032 | Acc(val) 0.0851 |
+Epoch 00076 | Loss(train) 3.5669 | Acc(train) 0.1071 | Acc(val) 0.0872 |
+Epoch 00077 | Loss(train) 3.5877 | Acc(train) 0.1092 | Acc(val) 0.0894 |
+Epoch 00078 | Loss(train) 3.5959 | Acc(train) 0.1032 | Acc(val) 0.0904 |*
+Epoch 00079 | Loss(train) 3.5773 | Acc(train) 0.1018 | Acc(val) 0.0915 |*
+Epoch 00080 | Loss(train) 3.5690 | Acc(train) 0.1064 | Acc(val) 0.0883 |
+Epoch 00081 | Loss(train) 3.5758 | Acc(train) 0.1028 | Acc(val) 0.0883 |
+Epoch 00082 | Loss(train) 3.5835 | Acc(train) 0.0996 | Acc(val) 0.0915 |
+Epoch 00083 | Loss(train) 3.5907 | Acc(train) 0.1032 | Acc(val) 0.0968 |*
+Epoch 00084 | Loss(train) 3.5872 | Acc(train) 0.1113 | Acc(val) 0.0989 |*
+Epoch 00085 | Loss(train) 3.5526 | Acc(train) 0.1096 | Acc(val) 0.0979 |
+Epoch 00086 | Loss(train) 3.5586 | Acc(train) 0.1035 | Acc(val) 0.0968 |
+Epoch 00087 | Loss(train) 3.5500 | Acc(train) 0.0982 | Acc(val) 0.0904 |
+Epoch 00088 | Loss(train) 3.5519 | Acc(train) 0.1078 | Acc(val) 0.0915 |
+Epoch 00089 | Loss(train) 3.5981 | Acc(train) 0.1103 | Acc(val) 0.0936 |
+Epoch 00090 | Loss(train) 3.5510 | Acc(train) 0.1117 | Acc(val) 0.1021 |*
+Epoch 00091 | Loss(train) 3.5538 | Acc(train) 0.1053 | Acc(val) 0.0915 |
+Epoch 00092 | Loss(train) 3.5256 | Acc(train) 0.1082 | Acc(val) 0.0947 |
+Epoch 00093 | Loss(train) 3.5090 | Acc(train) 0.1043 | Acc(val) 0.0915 |
+Epoch 00094 | Loss(train) 3.5509 | Acc(train) 0.1071 | Acc(val) 0.0915 |
+Epoch 00095 | Loss(train) 3.6341 | Acc(train) 0.1064 | Acc(val) 0.0926 |
+Epoch 00096 | Loss(train) 3.5455 | Acc(train) 0.1043 | Acc(val) 0.0936 |
+Epoch 00097 | Loss(train) 3.6249 | Acc(train) 0.1074 | Acc(val) 0.0936 |
+Epoch 00098 | Loss(train) 3.5660 | Acc(train) 0.1096 | Acc(val) 0.0957 |
+Epoch 00099 | Loss(train) 3.5320 | Acc(train) 0.1142 | Acc(val) 0.0936 |
+Epoch 00100 | Loss(train) 3.5525 | Acc(train) 0.1074 | Acc(val) 0.0979 |
+Epoch 00101 | Loss(train) 3.5501 | Acc(train) 0.1103 | Acc(val) 0.0989 |
+Epoch 00102 | Loss(train) 3.5323 | Acc(train) 0.1188 | Acc(val) 0.0979 |
+Epoch 00103 | Loss(train) 3.5435 | Acc(train) 0.1131 | Acc(val) 0.0989 |
+Epoch 00104 | Loss(train) 3.5332 | Acc(train) 0.1128 | Acc(val) 0.1043 |*
+Epoch 00105 | Loss(train) 3.5350 | Acc(train) 0.1089 | Acc(val) 0.1096 |*
+Epoch 00106 | Loss(train) 3.6234 | Acc(train) 0.1145 | Acc(val) 0.1064 |
+Epoch 00107 | Loss(train) 3.5432 | Acc(train) 0.1089 | Acc(val) 0.1064 |
+Epoch 00108 | Loss(train) 3.5366 | Acc(train) 0.1028 | Acc(val) 0.1170 |*
+Epoch 00109 | Loss(train) 3.5500 | Acc(train) 0.1089 | Acc(val) 0.1202 |*
+Epoch 00110 | Loss(train) 3.5263 | Acc(train) 0.1131 | Acc(val) 0.1160 |
+Epoch 00111 | Loss(train) 3.5191 | Acc(train) 0.1131 | Acc(val) 0.1170 |
+Epoch 00112 | Loss(train) 3.5486 | Acc(train) 0.1053 | Acc(val) 0.1138 |
+Epoch 00113 | Loss(train) 3.5121 | Acc(train) 0.1191 | Acc(val) 0.1053 |
+Epoch 00114 | Loss(train) 3.5568 | Acc(train) 0.1043 | Acc(val) 0.1000 |
+Epoch 00115 | Loss(train) 3.5290 | Acc(train) 0.1149 | Acc(val) 0.1011 |
+Epoch 00116 | Loss(train) 3.5013 | Acc(train) 0.1121 | Acc(val) 0.1011 |
+Epoch 00117 | Loss(train) 3.5257 | Acc(train) 0.1074 | Acc(val) 0.1149 |
+Epoch 00118 | Loss(train) 3.5110 | Acc(train) 0.1124 | Acc(val) 0.1160 |
+Epoch 00119 | Loss(train) 3.5308 | Acc(train) 0.1099 | Acc(val) 0.1181 |
+Epoch 00120 | Loss(train) 3.5193 | Acc(train) 0.1152 | Acc(val) 0.1234 |*
+Epoch 00121 | Loss(train) 3.5061 | Acc(train) 0.1163 | Acc(val) 0.1319 |*
+Epoch 00122 | Loss(train) 3.5583 | Acc(train) 0.1121 | Acc(val) 0.1415 |*
+Epoch 00123 | Loss(train) 3.5537 | Acc(train) 0.1152 | Acc(val) 0.1500 |*
+Epoch 00124 | Loss(train) 3.5245 | Acc(train) 0.1170 | Acc(val) 0.1553 |*
+Epoch 00125 | Loss(train) 3.5469 | Acc(train) 0.1259 | Acc(val) 0.1638 |*
+Epoch 00126 | Loss(train) 3.5051 | Acc(train) 0.1199 | Acc(val) 0.1543 |
+Epoch 00127 | Loss(train) 3.4971 | Acc(train) 0.1209 | Acc(val) 0.1479 |
+Epoch 00128 | Loss(train) 3.5099 | Acc(train) 0.1106 | Acc(val) 0.1426 |
+Epoch 00129 | Loss(train) 3.5183 | Acc(train) 0.1064 | Acc(val) 0.1532 |
+Epoch 00130 | Loss(train) 3.5006 | Acc(train) 0.1142 | Acc(val) 0.1521 |
+Epoch 00131 | Loss(train) 3.5044 | Acc(train) 0.1099 | Acc(val) 0.1585 |
+Epoch 00132 | Loss(train) 3.5153 | Acc(train) 0.1138 | Acc(val) 0.1691 |*
+Epoch 00133 | Loss(train) 3.5631 | Acc(train) 0.1206 | Acc(val) 0.1649 |
+Epoch 00134 | Loss(train) 3.5245 | Acc(train) 0.1227 | Acc(val) 0.1585 |
+Epoch 00135 | Loss(train) 3.5202 | Acc(train) 0.1199 | Acc(val) 0.1426 |
+Epoch 00136 | Loss(train) 3.4992 | Acc(train) 0.1128 | Acc(val) 0.1277 |
+Epoch 00137 | Loss(train) 3.5054 | Acc(train) 0.1160 | Acc(val) 0.1202 |
+Epoch 00138 | Loss(train) 3.4899 | Acc(train) 0.1227 | Acc(val) 0.1181 |
+Epoch 00139 | Loss(train) 3.5079 | Acc(train) 0.1213 | Acc(val) 0.1191 |
+Epoch 00140 | Loss(train) 3.4939 | Acc(train) 0.1188 | Acc(val) 0.1170 |
+Epoch 00141 | Loss(train) 3.4965 | Acc(train) 0.1163 | Acc(val) 0.1191 |
+Epoch 00142 | Loss(train) 3.5207 | Acc(train) 0.1160 | Acc(val) 0.1234 |
+Epoch 00143 | Loss(train) 3.5187 | Acc(train) 0.1216 | Acc(val) 0.1266 |
+Epoch 00144 | Loss(train) 3.4875 | Acc(train) 0.1199 | Acc(val) 0.1287 |
+Epoch 00145 | Loss(train) 3.4892 | Acc(train) 0.1191 | Acc(val) 0.1266 |
+Epoch 00146 | Loss(train) 3.5102 | Acc(train) 0.1181 | Acc(val) 0.1309 |
+Epoch 00147 | Loss(train) 3.4932 | Acc(train) 0.1191 | Acc(val) 0.1351 |
+Epoch 00148 | Loss(train) 3.4841 | Acc(train) 0.1138 | Acc(val) 0.1362 |
+Epoch 00149 | Loss(train) 3.5921 | Acc(train) 0.1135 | Acc(val) 0.1436 |
+Epoch 00150 | Loss(train) 3.5004 | Acc(train) 0.1177 | Acc(val) 0.1585 |
+Epoch 00151 | Loss(train) 3.4930 | Acc(train) 0.1184 | Acc(val) 0.1681 |
+Epoch 00152 | Loss(train) 3.4947 | Acc(train) 0.1206 | Acc(val) 0.1766 |*
+Epoch 00153 | Loss(train) 3.5305 | Acc(train) 0.1270 | Acc(val) 0.1787 |*
+Epoch 00154 | Loss(train) 3.4837 | Acc(train) 0.1188 | Acc(val) 0.1766 |
+Epoch 00155 | Loss(train) 3.4707 | Acc(train) 0.1142 | Acc(val) 0.1681 |
+Epoch 00156 | Loss(train) 3.5133 | Acc(train) 0.1106 | Acc(val) 0.1596 |
+Epoch 00157 | Loss(train) 3.5530 | Acc(train) 0.1213 | Acc(val) 0.1564 |
+Epoch 00158 | Loss(train) 3.4991 | Acc(train) 0.1199 | Acc(val) 0.1532 |
+Epoch 00159 | Loss(train) 3.5426 | Acc(train) 0.1230 | Acc(val) 0.1447 |
+Epoch 00160 | Loss(train) 3.4954 | Acc(train) 0.1202 | Acc(val) 0.1426 |
+Epoch 00161 | Loss(train) 3.4958 | Acc(train) 0.1188 | Acc(val) 0.1436 |
+Epoch 00162 | Loss(train) 3.5132 | Acc(train) 0.1163 | Acc(val) 0.1511 |
+Epoch 00163 | Loss(train) 3.4731 | Acc(train) 0.1206 | Acc(val) 0.1489 |
+Epoch 00164 | Loss(train) 3.5559 | Acc(train) 0.1216 | Acc(val) 0.1468 |
+Epoch 00165 | Loss(train) 3.5316 | Acc(train) 0.1145 | Acc(val) 0.1426 |
+Epoch 00166 | Loss(train) 3.4926 | Acc(train) 0.1174 | Acc(val) 0.1362 |
+Epoch 00167 | Loss(train) 3.5488 | Acc(train) 0.1138 | Acc(val) 0.1383 |
+Epoch 00168 | Loss(train) 3.5101 | Acc(train) 0.1209 | Acc(val) 0.1415 |
+Epoch 00169 | Loss(train) 3.4900 | Acc(train) 0.1128 | Acc(val) 0.1394 |
+Epoch 00170 | Loss(train) 3.5996 | Acc(train) 0.1241 | Acc(val) 0.1404 |
+Epoch 00171 | Loss(train) 3.4981 | Acc(train) 0.1181 | Acc(val) 0.1404 |
+Epoch 00172 | Loss(train) 3.4957 | Acc(train) 0.1312 | Acc(val) 0.1415 |
+Epoch 00173 | Loss(train) 3.4731 | Acc(train) 0.1188 | Acc(val) 0.1362 |
+Epoch 00174 | Loss(train) 3.7120 | Acc(train) 0.1227 | Acc(val) 0.1426 |
+Epoch 00175 | Loss(train) 3.4668 | Acc(train) 0.1202 | Acc(val) 0.1447 |
+Epoch 00176 | Loss(train) 3.5023 | Acc(train) 0.1160 | Acc(val) 0.1564 |
+Epoch 00177 | Loss(train) 3.5657 | Acc(train) 0.1177 | Acc(val) 0.1660 |
+Epoch 00178 | Loss(train) 3.4695 | Acc(train) 0.1255 | Acc(val) 0.1681 |
+Epoch 00179 | Loss(train) 3.4756 | Acc(train) 0.1259 | Acc(val) 0.1734 |
+Epoch 00180 | Loss(train) 3.4895 | Acc(train) 0.1259 | Acc(val) 0.1681 |
+Epoch 00181 | Loss(train) 3.4780 | Acc(train) 0.1230 | Acc(val) 0.1596 |
+Epoch 00182 | Loss(train) 3.4851 | Acc(train) 0.1216 | Acc(val) 0.1543 |
+Epoch 00183 | Loss(train) 3.7095 | Acc(train) 0.1199 | Acc(val) 0.1606 |
+Epoch 00184 | Loss(train) 3.4738 | Acc(train) 0.1252 | Acc(val) 0.1596 |
+Epoch 00185 | Loss(train) 3.5291 | Acc(train) 0.1167 | Acc(val) 0.1596 |
+Epoch 00186 | Loss(train) 3.4855 | Acc(train) 0.1273 | Acc(val) 0.1543 |
+Epoch 00187 | Loss(train) 3.4981 | Acc(train) 0.1238 | Acc(val) 0.1500 |
+Epoch 00188 | Loss(train) 3.4767 | Acc(train) 0.1305 | Acc(val) 0.1447 |
+Epoch 00189 | Loss(train) 3.4912 | Acc(train) 0.1220 | Acc(val) 0.1447 |
+Epoch 00190 | Loss(train) 3.4854 | Acc(train) 0.1266 | Acc(val) 0.1457 |
+Epoch 00191 | Loss(train) 3.4707 | Acc(train) 0.1312 | Acc(val) 0.1500 |
+Epoch 00192 | Loss(train) 3.4802 | Acc(train) 0.1227 | Acc(val) 0.1553 |
+Epoch 00193 | Loss(train) 3.4530 | Acc(train) 0.1202 | Acc(val) 0.1596 |
+Epoch 00194 | Loss(train) 3.4941 | Acc(train) 0.1230 | Acc(val) 0.1553 |
+Epoch 00195 | Loss(train) 3.4812 | Acc(train) 0.1199 | Acc(val) 0.1489 |
+Epoch 00196 | Loss(train) 3.4813 | Acc(train) 0.1138 | Acc(val) 0.1457 |
+Epoch 00197 | Loss(train) 3.5290 | Acc(train) 0.1213 | Acc(val) 0.1511 |
+Epoch 00198 | Loss(train) 3.4742 | Acc(train) 0.1280 | Acc(val) 0.1606 |
+Epoch 00199 | Loss(train) 3.4699 | Acc(train) 0.1245 | Acc(val) 0.1649 |
+Epoch 00200 | Loss(train) 3.5220 | Acc(train) 0.1184 | Acc(val) 0.1681 |
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.2, 'cal_hidden_dim': 128}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 64, 'dropout': 0.8, 'norm': None, 'in_dim': 8710, 'out_dim': 70}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.001, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 706.29 MB
+GPU Memory Reserved: 2156.00 MB
+Exp 4/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 4.2455 | Acc(train) 0.0245 | Acc(val) 0.0330 |*
+Epoch 00002 | Loss(train) 4.2351 | Acc(train) 0.0418 | Acc(val) 0.0330 |
+Epoch 00003 | Loss(train) 4.2230 | Acc(train) 0.0369 | Acc(val) 0.0330 |
+Epoch 00004 | Loss(train) 4.2069 | Acc(train) 0.0390 | Acc(val) 0.0436 |*
+Epoch 00005 | Loss(train) 4.1855 | Acc(train) 0.0433 | Acc(val) 0.0628 |*
+Epoch 00006 | Loss(train) 4.1699 | Acc(train) 0.0450 | Acc(val) 0.0979 |*
+Epoch 00007 | Loss(train) 4.1449 | Acc(train) 0.0447 | Acc(val) 0.1181 |*
+Epoch 00008 | Loss(train) 4.1238 | Acc(train) 0.0436 | Acc(val) 0.1202 |*
+Epoch 00009 | Loss(train) 4.1329 | Acc(train) 0.0355 | Acc(val) 0.0862 |
+Epoch 00010 | Loss(train) 4.0872 | Acc(train) 0.0372 | Acc(val) 0.0862 |
+Epoch 00011 | Loss(train) 4.0599 | Acc(train) 0.0496 | Acc(val) 0.0936 |
+Epoch 00012 | Loss(train) 4.0492 | Acc(train) 0.0482 | Acc(val) 0.1309 |*
+Epoch 00013 | Loss(train) 4.0264 | Acc(train) 0.0504 | Acc(val) 0.1521 |*
+Epoch 00014 | Loss(train) 4.0313 | Acc(train) 0.0525 | Acc(val) 0.1266 |
+Epoch 00015 | Loss(train) 4.0063 | Acc(train) 0.0550 | Acc(val) 0.1085 |
+Epoch 00016 | Loss(train) 4.0338 | Acc(train) 0.0518 | Acc(val) 0.1021 |
+Epoch 00017 | Loss(train) 4.0019 | Acc(train) 0.0546 | Acc(val) 0.0862 |
+Epoch 00018 | Loss(train) 4.0051 | Acc(train) 0.0550 | Acc(val) 0.0819 |
+Epoch 00019 | Loss(train) 4.0003 | Acc(train) 0.0585 | Acc(val) 0.0819 |
+Epoch 00020 | Loss(train) 3.9900 | Acc(train) 0.0645 | Acc(val) 0.0809 |
+Epoch 00021 | Loss(train) 3.9741 | Acc(train) 0.0589 | Acc(val) 0.0862 |
+Epoch 00022 | Loss(train) 3.9827 | Acc(train) 0.0613 | Acc(val) 0.0862 |
+Epoch 00023 | Loss(train) 3.9641 | Acc(train) 0.0574 | Acc(val) 0.0851 |
+Epoch 00024 | Loss(train) 3.9740 | Acc(train) 0.0624 | Acc(val) 0.0830 |
+Epoch 00025 | Loss(train) 3.9675 | Acc(train) 0.0592 | Acc(val) 0.0809 |
+Epoch 00026 | Loss(train) 3.9523 | Acc(train) 0.0663 | Acc(val) 0.0787 |
+Epoch 00027 | Loss(train) 3.9532 | Acc(train) 0.0706 | Acc(val) 0.0798 |
+Epoch 00028 | Loss(train) 3.9441 | Acc(train) 0.0621 | Acc(val) 0.0798 |
+Epoch 00029 | Loss(train) 3.9386 | Acc(train) 0.0606 | Acc(val) 0.0798 |
+Epoch 00030 | Loss(train) 4.0126 | Acc(train) 0.0628 | Acc(val) 0.0798 |
+Epoch 00031 | Loss(train) 3.9310 | Acc(train) 0.0688 | Acc(val) 0.0798 |
+Epoch 00032 | Loss(train) 3.9313 | Acc(train) 0.0709 | Acc(val) 0.0798 |
+Epoch 00033 | Loss(train) 3.9246 | Acc(train) 0.0684 | Acc(val) 0.0798 |
+Epoch 00034 | Loss(train) 3.9144 | Acc(train) 0.0723 | Acc(val) 0.0809 |
+Epoch 00035 | Loss(train) 3.9033 | Acc(train) 0.0706 | Acc(val) 0.0809 |
+Epoch 00036 | Loss(train) 3.8985 | Acc(train) 0.0759 | Acc(val) 0.0809 |
+Epoch 00037 | Loss(train) 3.8933 | Acc(train) 0.0716 | Acc(val) 0.0809 |
+Epoch 00038 | Loss(train) 3.8820 | Acc(train) 0.0766 | Acc(val) 0.0809 |
+Epoch 00039 | Loss(train) 3.8826 | Acc(train) 0.0780 | Acc(val) 0.0798 |
+Epoch 00040 | Loss(train) 3.8918 | Acc(train) 0.0809 | Acc(val) 0.0798 |
+Epoch 00041 | Loss(train) 3.9011 | Acc(train) 0.0819 | Acc(val) 0.0809 |
+Epoch 00042 | Loss(train) 3.8589 | Acc(train) 0.0791 | Acc(val) 0.0830 |
+Epoch 00043 | Loss(train) 3.8642 | Acc(train) 0.0826 | Acc(val) 0.0862 |
+Epoch 00044 | Loss(train) 3.8391 | Acc(train) 0.0911 | Acc(val) 0.0894 |
+Epoch 00045 | Loss(train) 3.8264 | Acc(train) 0.0869 | Acc(val) 0.0947 |
+Epoch 00046 | Loss(train) 3.8039 | Acc(train) 0.0968 | Acc(val) 0.0947 |
+Epoch 00047 | Loss(train) 3.7982 | Acc(train) 0.0901 | Acc(val) 0.0989 |
+Epoch 00048 | Loss(train) 3.7723 | Acc(train) 0.0933 | Acc(val) 0.1000 |
+Epoch 00049 | Loss(train) 3.7772 | Acc(train) 0.0908 | Acc(val) 0.1000 |
+Epoch 00050 | Loss(train) 3.7669 | Acc(train) 0.0947 | Acc(val) 0.0989 |
+Epoch 00051 | Loss(train) 3.7615 | Acc(train) 0.0926 | Acc(val) 0.0989 |
+Epoch 00052 | Loss(train) 3.7315 | Acc(train) 0.0943 | Acc(val) 0.0989 |
+Epoch 00053 | Loss(train) 3.7244 | Acc(train) 0.0894 | Acc(val) 0.0989 |
+Epoch 00054 | Loss(train) 3.6993 | Acc(train) 0.0982 | Acc(val) 0.1000 |
+Epoch 00055 | Loss(train) 3.7016 | Acc(train) 0.1014 | Acc(val) 0.0979 |
+Epoch 00056 | Loss(train) 3.7045 | Acc(train) 0.0989 | Acc(val) 0.0968 |
+Epoch 00057 | Loss(train) 3.6707 | Acc(train) 0.0911 | Acc(val) 0.0979 |
+Epoch 00058 | Loss(train) 3.6830 | Acc(train) 0.0993 | Acc(val) 0.0989 |
+Epoch 00059 | Loss(train) 3.6876 | Acc(train) 0.0922 | Acc(val) 0.0989 |
+Epoch 00060 | Loss(train) 3.6866 | Acc(train) 0.0986 | Acc(val) 0.0989 |
+Epoch 00061 | Loss(train) 3.6735 | Acc(train) 0.0943 | Acc(val) 0.1074 |
+Epoch 00062 | Loss(train) 3.6308 | Acc(train) 0.0986 | Acc(val) 0.1181 |
+Early stopping at epoch 62
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.2, 'cal_hidden_dim': 128}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 64, 'dropout': 0.8, 'norm': None, 'in_dim': 8710, 'out_dim': 70}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.001, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 706.29 MB
+GPU Memory Reserved: 2156.00 MB
+Exp 5/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 4.2404 | Acc(train) 0.0156 | Acc(val) 0.0670 |*
+Epoch 00002 | Loss(train) 4.2311 | Acc(train) 0.0326 | Acc(val) 0.0670 |
+Epoch 00003 | Loss(train) 4.2167 | Acc(train) 0.0394 | Acc(val) 0.0862 |*
+Epoch 00004 | Loss(train) 4.2028 | Acc(train) 0.0443 | Acc(val) 0.0915 |*
+Epoch 00005 | Loss(train) 4.1817 | Acc(train) 0.0457 | Acc(val) 0.0596 |
+Epoch 00006 | Loss(train) 4.1586 | Acc(train) 0.0528 | Acc(val) 0.0479 |
+Epoch 00007 | Loss(train) 4.1335 | Acc(train) 0.0543 | Acc(val) 0.0447 |
+Epoch 00008 | Loss(train) 4.1018 | Acc(train) 0.0475 | Acc(val) 0.0447 |
+Epoch 00009 | Loss(train) 4.0892 | Acc(train) 0.0475 | Acc(val) 0.0447 |
+Epoch 00010 | Loss(train) 4.0842 | Acc(train) 0.0514 | Acc(val) 0.0447 |
+Epoch 00011 | Loss(train) 4.0598 | Acc(train) 0.0504 | Acc(val) 0.0447 |
+Epoch 00012 | Loss(train) 4.0515 | Acc(train) 0.0482 | Acc(val) 0.0447 |
+Epoch 00013 | Loss(train) 4.0395 | Acc(train) 0.0482 | Acc(val) 0.0447 |
+Epoch 00014 | Loss(train) 4.0384 | Acc(train) 0.0571 | Acc(val) 0.0447 |
+Epoch 00015 | Loss(train) 4.0565 | Acc(train) 0.0504 | Acc(val) 0.0447 |
+Epoch 00016 | Loss(train) 4.0225 | Acc(train) 0.0525 | Acc(val) 0.0447 |
+Epoch 00017 | Loss(train) 4.0065 | Acc(train) 0.0521 | Acc(val) 0.0447 |
+Epoch 00018 | Loss(train) 4.0144 | Acc(train) 0.0543 | Acc(val) 0.0447 |
+Epoch 00019 | Loss(train) 3.9876 | Acc(train) 0.0613 | Acc(val) 0.0447 |
+Epoch 00020 | Loss(train) 3.9830 | Acc(train) 0.0553 | Acc(val) 0.0468 |
+Epoch 00021 | Loss(train) 3.9805 | Acc(train) 0.0567 | Acc(val) 0.0500 |
+Epoch 00022 | Loss(train) 3.9828 | Acc(train) 0.0553 | Acc(val) 0.0543 |
+Epoch 00023 | Loss(train) 3.9690 | Acc(train) 0.0571 | Acc(val) 0.0596 |
+Epoch 00024 | Loss(train) 3.9650 | Acc(train) 0.0571 | Acc(val) 0.0660 |
+Epoch 00025 | Loss(train) 3.9677 | Acc(train) 0.0631 | Acc(val) 0.0745 |
+Epoch 00026 | Loss(train) 3.9599 | Acc(train) 0.0599 | Acc(val) 0.0755 |
+Epoch 00027 | Loss(train) 3.9472 | Acc(train) 0.0642 | Acc(val) 0.0766 |
+Epoch 00028 | Loss(train) 3.9657 | Acc(train) 0.0610 | Acc(val) 0.0787 |
+Epoch 00029 | Loss(train) 3.9400 | Acc(train) 0.0596 | Acc(val) 0.0787 |
+Epoch 00030 | Loss(train) 3.9446 | Acc(train) 0.0660 | Acc(val) 0.0798 |
+Epoch 00031 | Loss(train) 3.9347 | Acc(train) 0.0706 | Acc(val) 0.0798 |
+Epoch 00032 | Loss(train) 3.9301 | Acc(train) 0.0691 | Acc(val) 0.0798 |
+Epoch 00033 | Loss(train) 3.9244 | Acc(train) 0.0667 | Acc(val) 0.0798 |
+Epoch 00034 | Loss(train) 3.9152 | Acc(train) 0.0660 | Acc(val) 0.0798 |
+Epoch 00035 | Loss(train) 3.9184 | Acc(train) 0.0699 | Acc(val) 0.0798 |
+Epoch 00036 | Loss(train) 3.9129 | Acc(train) 0.0706 | Acc(val) 0.0798 |
+Epoch 00037 | Loss(train) 3.8948 | Acc(train) 0.0684 | Acc(val) 0.0798 |
+Epoch 00038 | Loss(train) 3.8972 | Acc(train) 0.0748 | Acc(val) 0.0798 |
+Epoch 00039 | Loss(train) 3.8869 | Acc(train) 0.0727 | Acc(val) 0.0798 |
+Epoch 00040 | Loss(train) 3.8789 | Acc(train) 0.0755 | Acc(val) 0.0798 |
+Epoch 00041 | Loss(train) 3.8753 | Acc(train) 0.0759 | Acc(val) 0.0798 |
+Epoch 00042 | Loss(train) 3.8518 | Acc(train) 0.0770 | Acc(val) 0.0798 |
+Epoch 00043 | Loss(train) 3.8460 | Acc(train) 0.0823 | Acc(val) 0.0798 |
+Epoch 00044 | Loss(train) 3.8401 | Acc(train) 0.0833 | Acc(val) 0.0798 |
+Epoch 00045 | Loss(train) 3.8295 | Acc(train) 0.0848 | Acc(val) 0.0798 |
+Epoch 00046 | Loss(train) 3.8349 | Acc(train) 0.0848 | Acc(val) 0.0798 |
+Epoch 00047 | Loss(train) 3.8236 | Acc(train) 0.0872 | Acc(val) 0.0819 |
+Epoch 00048 | Loss(train) 3.7908 | Acc(train) 0.0890 | Acc(val) 0.0862 |
+Epoch 00049 | Loss(train) 3.7969 | Acc(train) 0.0940 | Acc(val) 0.0872 |
+Epoch 00050 | Loss(train) 3.7795 | Acc(train) 0.0879 | Acc(val) 0.0883 |
+Epoch 00051 | Loss(train) 3.7610 | Acc(train) 0.0922 | Acc(val) 0.0883 |
+Epoch 00052 | Loss(train) 3.7642 | Acc(train) 0.0965 | Acc(val) 0.0883 |
+Epoch 00053 | Loss(train) 3.7496 | Acc(train) 0.0926 | Acc(val) 0.0872 |
+Early stopping at epoch 53
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.2, 'cal_hidden_dim': 128}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 64, 'dropout': 0.8, 'norm': None, 'in_dim': 8710, 'out_dim': 70}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.001, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 706.29 MB
+GPU Memory Reserved: 2156.00 MB
+Exp 6/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 4.2533 | Acc(train) 0.0113 | Acc(val) 0.0340 |*
+Epoch 00002 | Loss(train) 4.2439 | Acc(train) 0.0266 | Acc(val) 0.0340 |
+Epoch 00003 | Loss(train) 4.2274 | Acc(train) 0.0319 | Acc(val) 0.0394 |*
+Epoch 00004 | Loss(train) 4.2110 | Acc(train) 0.0390 | Acc(val) 0.0457 |*
+Epoch 00005 | Loss(train) 4.1923 | Acc(train) 0.0415 | Acc(val) 0.0457 |
+Epoch 00006 | Loss(train) 4.1676 | Acc(train) 0.0518 | Acc(val) 0.0394 |
+Epoch 00007 | Loss(train) 4.1511 | Acc(train) 0.0408 | Acc(val) 0.0351 |
+Epoch 00008 | Loss(train) 4.1149 | Acc(train) 0.0447 | Acc(val) 0.0394 |
+Epoch 00009 | Loss(train) 4.0921 | Acc(train) 0.0493 | Acc(val) 0.0532 |*
+Epoch 00010 | Loss(train) 4.0836 | Acc(train) 0.0436 | Acc(val) 0.0511 |
+Epoch 00011 | Loss(train) 4.0693 | Acc(train) 0.0457 | Acc(val) 0.0479 |
+Epoch 00012 | Loss(train) 4.0538 | Acc(train) 0.0557 | Acc(val) 0.0479 |
+Epoch 00013 | Loss(train) 4.0416 | Acc(train) 0.0560 | Acc(val) 0.0468 |
+Epoch 00014 | Loss(train) 4.0368 | Acc(train) 0.0574 | Acc(val) 0.0447 |
+Epoch 00015 | Loss(train) 4.0162 | Acc(train) 0.0560 | Acc(val) 0.0436 |
+Epoch 00016 | Loss(train) 4.0104 | Acc(train) 0.0564 | Acc(val) 0.0436 |
+Epoch 00017 | Loss(train) 3.9996 | Acc(train) 0.0543 | Acc(val) 0.0457 |
+Epoch 00018 | Loss(train) 3.9964 | Acc(train) 0.0550 | Acc(val) 0.0521 |
+Epoch 00019 | Loss(train) 4.0025 | Acc(train) 0.0582 | Acc(val) 0.0628 |*
+Epoch 00020 | Loss(train) 3.9932 | Acc(train) 0.0599 | Acc(val) 0.0830 |*
+Epoch 00021 | Loss(train) 3.9910 | Acc(train) 0.0610 | Acc(val) 0.0915 |*
+Epoch 00022 | Loss(train) 3.9761 | Acc(train) 0.0638 | Acc(val) 0.0926 |*
+Epoch 00023 | Loss(train) 3.9733 | Acc(train) 0.0603 | Acc(val) 0.0936 |*
+Epoch 00024 | Loss(train) 3.9828 | Acc(train) 0.0599 | Acc(val) 0.0947 |*
+Epoch 00025 | Loss(train) 3.9620 | Acc(train) 0.0652 | Acc(val) 0.0947 |
+Epoch 00026 | Loss(train) 3.9527 | Acc(train) 0.0628 | Acc(val) 0.0947 |
+Epoch 00027 | Loss(train) 3.9507 | Acc(train) 0.0663 | Acc(val) 0.0957 |*
+Epoch 00028 | Loss(train) 3.9591 | Acc(train) 0.0628 | Acc(val) 0.0957 |
+Epoch 00029 | Loss(train) 3.9412 | Acc(train) 0.0645 | Acc(val) 0.0957 |
+Epoch 00030 | Loss(train) 3.9294 | Acc(train) 0.0734 | Acc(val) 0.0957 |
+Epoch 00031 | Loss(train) 3.9337 | Acc(train) 0.0670 | Acc(val) 0.0947 |
+Epoch 00032 | Loss(train) 3.9286 | Acc(train) 0.0652 | Acc(val) 0.0947 |
+Epoch 00033 | Loss(train) 3.9213 | Acc(train) 0.0684 | Acc(val) 0.0957 |
+Epoch 00034 | Loss(train) 3.9293 | Acc(train) 0.0716 | Acc(val) 0.0957 |
+Epoch 00035 | Loss(train) 3.9185 | Acc(train) 0.0730 | Acc(val) 0.0957 |
+Epoch 00036 | Loss(train) 3.9280 | Acc(train) 0.0745 | Acc(val) 0.0957 |
+Epoch 00037 | Loss(train) 3.9097 | Acc(train) 0.0759 | Acc(val) 0.0957 |
+Epoch 00038 | Loss(train) 3.9095 | Acc(train) 0.0677 | Acc(val) 0.0947 |
+Epoch 00039 | Loss(train) 3.8979 | Acc(train) 0.0745 | Acc(val) 0.0936 |
+Epoch 00040 | Loss(train) 3.8878 | Acc(train) 0.0720 | Acc(val) 0.0926 |
+Epoch 00041 | Loss(train) 3.8839 | Acc(train) 0.0844 | Acc(val) 0.0926 |
+Epoch 00042 | Loss(train) 3.8612 | Acc(train) 0.0777 | Acc(val) 0.0894 |
+Epoch 00043 | Loss(train) 3.8568 | Acc(train) 0.0773 | Acc(val) 0.0894 |
+Epoch 00044 | Loss(train) 3.8557 | Acc(train) 0.0830 | Acc(val) 0.0883 |
+Epoch 00045 | Loss(train) 3.8534 | Acc(train) 0.0826 | Acc(val) 0.0883 |
+Epoch 00046 | Loss(train) 3.8648 | Acc(train) 0.0858 | Acc(val) 0.0883 |
+Epoch 00047 | Loss(train) 3.8293 | Acc(train) 0.0844 | Acc(val) 0.0883 |
+Epoch 00048 | Loss(train) 3.8368 | Acc(train) 0.0830 | Acc(val) 0.0894 |
+Epoch 00049 | Loss(train) 3.8259 | Acc(train) 0.0929 | Acc(val) 0.0894 |
+Epoch 00050 | Loss(train) 3.8052 | Acc(train) 0.0901 | Acc(val) 0.0894 |
+Epoch 00051 | Loss(train) 3.7723 | Acc(train) 0.1007 | Acc(val) 0.0872 |
+Epoch 00052 | Loss(train) 3.7621 | Acc(train) 0.0883 | Acc(val) 0.0883 |
+Epoch 00053 | Loss(train) 3.7666 | Acc(train) 0.1035 | Acc(val) 0.0894 |
+Epoch 00054 | Loss(train) 3.7424 | Acc(train) 0.0915 | Acc(val) 0.0904 |
+Epoch 00055 | Loss(train) 3.7522 | Acc(train) 0.0947 | Acc(val) 0.0915 |
+Epoch 00056 | Loss(train) 3.7224 | Acc(train) 0.1007 | Acc(val) 0.0883 |
+Epoch 00057 | Loss(train) 3.7210 | Acc(train) 0.0961 | Acc(val) 0.0883 |
+Epoch 00058 | Loss(train) 3.7209 | Acc(train) 0.0961 | Acc(val) 0.0894 |
+Epoch 00059 | Loss(train) 3.7050 | Acc(train) 0.1004 | Acc(val) 0.0915 |
+Epoch 00060 | Loss(train) 3.6989 | Acc(train) 0.0918 | Acc(val) 0.0926 |
+Epoch 00061 | Loss(train) 3.6753 | Acc(train) 0.1074 | Acc(val) 0.0936 |
+Epoch 00062 | Loss(train) 3.6934 | Acc(train) 0.0954 | Acc(val) 0.0979 |*
+Epoch 00063 | Loss(train) 3.6856 | Acc(train) 0.1004 | Acc(val) 0.0979 |
+Epoch 00064 | Loss(train) 3.6653 | Acc(train) 0.1007 | Acc(val) 0.0957 |
+Epoch 00065 | Loss(train) 3.6452 | Acc(train) 0.0922 | Acc(val) 0.0979 |
+Epoch 00066 | Loss(train) 3.6537 | Acc(train) 0.0957 | Acc(val) 0.1011 |*
+Epoch 00067 | Loss(train) 3.6519 | Acc(train) 0.0918 | Acc(val) 0.1032 |*
+Epoch 00068 | Loss(train) 3.6204 | Acc(train) 0.0965 | Acc(val) 0.1032 |
+Epoch 00069 | Loss(train) 3.6449 | Acc(train) 0.0922 | Acc(val) 0.1032 |
+Epoch 00070 | Loss(train) 3.6203 | Acc(train) 0.1018 | Acc(val) 0.1053 |*
+Epoch 00071 | Loss(train) 3.6251 | Acc(train) 0.0986 | Acc(val) 0.1043 |
+Epoch 00072 | Loss(train) 3.6247 | Acc(train) 0.1004 | Acc(val) 0.1043 |
+Epoch 00073 | Loss(train) 3.6253 | Acc(train) 0.0982 | Acc(val) 0.1053 |
+Epoch 00074 | Loss(train) 3.6532 | Acc(train) 0.0979 | Acc(val) 0.1043 |
+Epoch 00075 | Loss(train) 3.6004 | Acc(train) 0.1099 | Acc(val) 0.1043 |
+Epoch 00076 | Loss(train) 3.6168 | Acc(train) 0.1046 | Acc(val) 0.1064 |*
+Epoch 00077 | Loss(train) 3.6308 | Acc(train) 0.1028 | Acc(val) 0.1106 |*
+Epoch 00078 | Loss(train) 3.6110 | Acc(train) 0.0965 | Acc(val) 0.1117 |*
+Epoch 00079 | Loss(train) 3.5931 | Acc(train) 0.1110 | Acc(val) 0.1202 |*
+Epoch 00080 | Loss(train) 3.5951 | Acc(train) 0.1046 | Acc(val) 0.1213 |*
+Epoch 00081 | Loss(train) 3.6009 | Acc(train) 0.1067 | Acc(val) 0.1202 |
+Epoch 00082 | Loss(train) 3.5770 | Acc(train) 0.1039 | Acc(val) 0.1128 |
+Epoch 00083 | Loss(train) 3.6042 | Acc(train) 0.0996 | Acc(val) 0.1117 |
+Epoch 00084 | Loss(train) 3.6127 | Acc(train) 0.1060 | Acc(val) 0.1085 |
+Epoch 00085 | Loss(train) 3.5894 | Acc(train) 0.1135 | Acc(val) 0.1138 |
+Epoch 00086 | Loss(train) 3.5547 | Acc(train) 0.1025 | Acc(val) 0.1213 |
+Epoch 00087 | Loss(train) 3.5676 | Acc(train) 0.1082 | Acc(val) 0.1213 |
+Epoch 00088 | Loss(train) 3.5657 | Acc(train) 0.1092 | Acc(val) 0.1213 |
+Epoch 00089 | Loss(train) 3.5499 | Acc(train) 0.1043 | Acc(val) 0.1245 |*
+Epoch 00090 | Loss(train) 3.5691 | Acc(train) 0.1060 | Acc(val) 0.1202 |
+Epoch 00091 | Loss(train) 3.5647 | Acc(train) 0.1106 | Acc(val) 0.1255 |*
+Epoch 00092 | Loss(train) 3.5631 | Acc(train) 0.1046 | Acc(val) 0.1277 |*
+Epoch 00093 | Loss(train) 3.5493 | Acc(train) 0.1103 | Acc(val) 0.1309 |*
+Epoch 00094 | Loss(train) 3.5771 | Acc(train) 0.1082 | Acc(val) 0.1351 |*
+Epoch 00095 | Loss(train) 3.5572 | Acc(train) 0.1032 | Acc(val) 0.1362 |*
+Epoch 00096 | Loss(train) 3.5508 | Acc(train) 0.1074 | Acc(val) 0.1372 |*
+Epoch 00097 | Loss(train) 3.5749 | Acc(train) 0.1021 | Acc(val) 0.1351 |
+Epoch 00098 | Loss(train) 3.5561 | Acc(train) 0.1082 | Acc(val) 0.1319 |
+Epoch 00099 | Loss(train) 3.7667 | Acc(train) 0.1103 | Acc(val) 0.1319 |
+Epoch 00100 | Loss(train) 3.5568 | Acc(train) 0.1035 | Acc(val) 0.1362 |
+Epoch 00101 | Loss(train) 3.5543 | Acc(train) 0.1043 | Acc(val) 0.1309 |
+Epoch 00102 | Loss(train) 3.5750 | Acc(train) 0.1050 | Acc(val) 0.1340 |
+Epoch 00103 | Loss(train) 3.5552 | Acc(train) 0.1082 | Acc(val) 0.1287 |
+Epoch 00104 | Loss(train) 3.5374 | Acc(train) 0.1106 | Acc(val) 0.1362 |
+Epoch 00105 | Loss(train) 3.5525 | Acc(train) 0.1060 | Acc(val) 0.1404 |*
+Epoch 00106 | Loss(train) 3.5695 | Acc(train) 0.1060 | Acc(val) 0.1447 |*
+Epoch 00107 | Loss(train) 3.5630 | Acc(train) 0.1113 | Acc(val) 0.1457 |*
+Epoch 00108 | Loss(train) 3.5352 | Acc(train) 0.1110 | Acc(val) 0.1479 |*
+Epoch 00109 | Loss(train) 3.5579 | Acc(train) 0.1085 | Acc(val) 0.1479 |
+Epoch 00110 | Loss(train) 3.5549 | Acc(train) 0.1067 | Acc(val) 0.1511 |*
+Epoch 00111 | Loss(train) 3.5450 | Acc(train) 0.1057 | Acc(val) 0.1521 |*
+Epoch 00112 | Loss(train) 3.5524 | Acc(train) 0.1099 | Acc(val) 0.1521 |
+Epoch 00113 | Loss(train) 3.5431 | Acc(train) 0.1103 | Acc(val) 0.1521 |
+Epoch 00114 | Loss(train) 3.5569 | Acc(train) 0.1145 | Acc(val) 0.1489 |
+Epoch 00115 | Loss(train) 3.5247 | Acc(train) 0.1110 | Acc(val) 0.1468 |
+Epoch 00116 | Loss(train) 3.5414 | Acc(train) 0.1074 | Acc(val) 0.1457 |
+Epoch 00117 | Loss(train) 3.5377 | Acc(train) 0.1078 | Acc(val) 0.1383 |
+Epoch 00118 | Loss(train) 3.5050 | Acc(train) 0.1149 | Acc(val) 0.1319 |
+Epoch 00119 | Loss(train) 3.5480 | Acc(train) 0.1074 | Acc(val) 0.1309 |
+Epoch 00120 | Loss(train) 3.5314 | Acc(train) 0.1078 | Acc(val) 0.1330 |
+Epoch 00121 | Loss(train) 3.5228 | Acc(train) 0.1039 | Acc(val) 0.1287 |
+Epoch 00122 | Loss(train) 3.5401 | Acc(train) 0.1131 | Acc(val) 0.1309 |
+Epoch 00123 | Loss(train) 3.5287 | Acc(train) 0.1106 | Acc(val) 0.1383 |
+Epoch 00124 | Loss(train) 3.5175 | Acc(train) 0.1142 | Acc(val) 0.1426 |
+Epoch 00125 | Loss(train) 3.5237 | Acc(train) 0.1149 | Acc(val) 0.1457 |
+Epoch 00126 | Loss(train) 3.5003 | Acc(train) 0.1121 | Acc(val) 0.1468 |
+Epoch 00127 | Loss(train) 3.5137 | Acc(train) 0.1160 | Acc(val) 0.1468 |
+Epoch 00128 | Loss(train) 3.5578 | Acc(train) 0.1170 | Acc(val) 0.1489 |
+Epoch 00129 | Loss(train) 3.5399 | Acc(train) 0.1082 | Acc(val) 0.1521 |
+Epoch 00130 | Loss(train) 3.5183 | Acc(train) 0.1071 | Acc(val) 0.1489 |
+Epoch 00131 | Loss(train) 3.5341 | Acc(train) 0.1078 | Acc(val) 0.1479 |
+Epoch 00132 | Loss(train) 3.5597 | Acc(train) 0.1110 | Acc(val) 0.1489 |
+Epoch 00133 | Loss(train) 3.6640 | Acc(train) 0.1191 | Acc(val) 0.1468 |
+Epoch 00134 | Loss(train) 3.5381 | Acc(train) 0.1089 | Acc(val) 0.1447 |
+Epoch 00135 | Loss(train) 3.5853 | Acc(train) 0.1113 | Acc(val) 0.1532 |*
+Epoch 00136 | Loss(train) 3.5382 | Acc(train) 0.1181 | Acc(val) 0.1511 |
+Epoch 00137 | Loss(train) 3.5427 | Acc(train) 0.1145 | Acc(val) 0.1532 |
+Epoch 00138 | Loss(train) 3.5360 | Acc(train) 0.1138 | Acc(val) 0.1553 |*
+Epoch 00139 | Loss(train) 3.5318 | Acc(train) 0.1163 | Acc(val) 0.1479 |
+Epoch 00140 | Loss(train) 3.5272 | Acc(train) 0.1099 | Acc(val) 0.1457 |
+Epoch 00141 | Loss(train) 3.5193 | Acc(train) 0.1064 | Acc(val) 0.1511 |
+Epoch 00142 | Loss(train) 3.5204 | Acc(train) 0.1103 | Acc(val) 0.1553 |
+Epoch 00143 | Loss(train) 3.5156 | Acc(train) 0.1128 | Acc(val) 0.1532 |
+Epoch 00144 | Loss(train) 3.5271 | Acc(train) 0.1053 | Acc(val) 0.1543 |
+Epoch 00145 | Loss(train) 3.5255 | Acc(train) 0.1099 | Acc(val) 0.1596 |*
+Epoch 00146 | Loss(train) 3.5818 | Acc(train) 0.1064 | Acc(val) 0.1585 |
+Epoch 00147 | Loss(train) 3.5136 | Acc(train) 0.1135 | Acc(val) 0.1574 |
+Epoch 00148 | Loss(train) 3.5164 | Acc(train) 0.1067 | Acc(val) 0.1606 |*
+Epoch 00149 | Loss(train) 3.5427 | Acc(train) 0.1255 | Acc(val) 0.1723 |*
+Epoch 00150 | Loss(train) 3.5024 | Acc(train) 0.1230 | Acc(val) 0.1670 |
+Epoch 00151 | Loss(train) 3.5310 | Acc(train) 0.1156 | Acc(val) 0.1660 |
+Epoch 00152 | Loss(train) 3.5058 | Acc(train) 0.1106 | Acc(val) 0.1628 |
+Epoch 00153 | Loss(train) 3.5616 | Acc(train) 0.1174 | Acc(val) 0.1479 |
+Epoch 00154 | Loss(train) 3.5258 | Acc(train) 0.1039 | Acc(val) 0.1479 |
+Epoch 00155 | Loss(train) 3.5386 | Acc(train) 0.1124 | Acc(val) 0.1468 |
+Epoch 00156 | Loss(train) 3.5265 | Acc(train) 0.1131 | Acc(val) 0.1585 |
+Epoch 00157 | Loss(train) 3.5106 | Acc(train) 0.1071 | Acc(val) 0.1670 |
+Epoch 00158 | Loss(train) 3.4953 | Acc(train) 0.1163 | Acc(val) 0.1691 |
+Epoch 00159 | Loss(train) 3.5274 | Acc(train) 0.1206 | Acc(val) 0.1606 |
+Epoch 00160 | Loss(train) 3.5050 | Acc(train) 0.1195 | Acc(val) 0.1489 |
+Epoch 00161 | Loss(train) 3.5126 | Acc(train) 0.1188 | Acc(val) 0.1447 |
+Epoch 00162 | Loss(train) 3.5047 | Acc(train) 0.1156 | Acc(val) 0.1362 |
+Epoch 00163 | Loss(train) 3.5243 | Acc(train) 0.1135 | Acc(val) 0.1266 |
+Epoch 00164 | Loss(train) 3.5394 | Acc(train) 0.1035 | Acc(val) 0.1255 |
+Epoch 00165 | Loss(train) 3.5103 | Acc(train) 0.1124 | Acc(val) 0.1170 |
+Epoch 00166 | Loss(train) 3.5058 | Acc(train) 0.1238 | Acc(val) 0.1096 |
+Epoch 00167 | Loss(train) 3.5074 | Acc(train) 0.1149 | Acc(val) 0.1128 |
+Epoch 00168 | Loss(train) 3.5606 | Acc(train) 0.1096 | Acc(val) 0.1213 |
+Epoch 00169 | Loss(train) 3.5117 | Acc(train) 0.1152 | Acc(val) 0.1298 |
+Epoch 00170 | Loss(train) 3.5656 | Acc(train) 0.1113 | Acc(val) 0.1266 |
+Epoch 00171 | Loss(train) 3.5067 | Acc(train) 0.1142 | Acc(val) 0.1277 |
+Epoch 00172 | Loss(train) 3.6127 | Acc(train) 0.1227 | Acc(val) 0.1309 |
+Epoch 00173 | Loss(train) 3.5712 | Acc(train) 0.1103 | Acc(val) 0.1340 |
+Epoch 00174 | Loss(train) 3.5074 | Acc(train) 0.1135 | Acc(val) 0.1394 |
+Epoch 00175 | Loss(train) 3.5996 | Acc(train) 0.1145 | Acc(val) 0.1468 |
+Epoch 00176 | Loss(train) 3.5268 | Acc(train) 0.1106 | Acc(val) 0.1511 |
+Epoch 00177 | Loss(train) 3.5234 | Acc(train) 0.1106 | Acc(val) 0.1457 |
+Epoch 00178 | Loss(train) 3.5053 | Acc(train) 0.1124 | Acc(val) 0.1457 |
+Epoch 00179 | Loss(train) 3.5905 | Acc(train) 0.1181 | Acc(val) 0.1500 |
+Epoch 00180 | Loss(train) 3.5157 | Acc(train) 0.1145 | Acc(val) 0.1564 |
+Epoch 00181 | Loss(train) 3.5121 | Acc(train) 0.1124 | Acc(val) 0.1553 |
+Epoch 00182 | Loss(train) 3.5212 | Acc(train) 0.1199 | Acc(val) 0.1564 |
+Epoch 00183 | Loss(train) 3.4895 | Acc(train) 0.1266 | Acc(val) 0.1553 |
+Epoch 00184 | Loss(train) 3.5116 | Acc(train) 0.1149 | Acc(val) 0.1521 |
+Epoch 00185 | Loss(train) 3.5315 | Acc(train) 0.1181 | Acc(val) 0.1500 |
+Epoch 00186 | Loss(train) 3.5100 | Acc(train) 0.1106 | Acc(val) 0.1532 |
+Epoch 00187 | Loss(train) 3.5056 | Acc(train) 0.1124 | Acc(val) 0.1521 |
+Epoch 00188 | Loss(train) 3.4953 | Acc(train) 0.1145 | Acc(val) 0.1585 |
+Epoch 00189 | Loss(train) 3.5077 | Acc(train) 0.1131 | Acc(val) 0.1681 |
+Epoch 00190 | Loss(train) 3.5186 | Acc(train) 0.1124 | Acc(val) 0.1660 |
+Epoch 00191 | Loss(train) 3.5269 | Acc(train) 0.1149 | Acc(val) 0.1649 |
+Epoch 00192 | Loss(train) 3.5071 | Acc(train) 0.1163 | Acc(val) 0.1670 |
+Epoch 00193 | Loss(train) 3.5193 | Acc(train) 0.1163 | Acc(val) 0.1617 |
+Epoch 00194 | Loss(train) 3.4967 | Acc(train) 0.1096 | Acc(val) 0.1606 |
+Epoch 00195 | Loss(train) 3.5148 | Acc(train) 0.1195 | Acc(val) 0.1660 |
+Epoch 00196 | Loss(train) 3.4953 | Acc(train) 0.1209 | Acc(val) 0.1660 |
+Epoch 00197 | Loss(train) 3.5151 | Acc(train) 0.1181 | Acc(val) 0.1670 |
+Epoch 00198 | Loss(train) 3.5008 | Acc(train) 0.1188 | Acc(val) 0.1660 |
+Early stopping at epoch 198
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.2, 'cal_hidden_dim': 128}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 64, 'dropout': 0.8, 'norm': None, 'in_dim': 8710, 'out_dim': 70}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.001, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 706.29 MB
+GPU Memory Reserved: 2156.00 MB
+Exp 7/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 4.2540 | Acc(train) 0.0156 | Acc(val) 0.0479 |*
+Epoch 00002 | Loss(train) 4.2445 | Acc(train) 0.0326 | Acc(val) 0.0426 |
+Epoch 00003 | Loss(train) 4.2244 | Acc(train) 0.0408 | Acc(val) 0.0532 |*
+Epoch 00004 | Loss(train) 4.2067 | Acc(train) 0.0436 | Acc(val) 0.0447 |
+Epoch 00005 | Loss(train) 4.1858 | Acc(train) 0.0457 | Acc(val) 0.0351 |
+Epoch 00006 | Loss(train) 4.1620 | Acc(train) 0.0489 | Acc(val) 0.0340 |
+Epoch 00007 | Loss(train) 4.1377 | Acc(train) 0.0415 | Acc(val) 0.0362 |
+Epoch 00008 | Loss(train) 4.1173 | Acc(train) 0.0436 | Acc(val) 0.0362 |
+Epoch 00009 | Loss(train) 4.0815 | Acc(train) 0.0387 | Acc(val) 0.0457 |
+Epoch 00010 | Loss(train) 4.0659 | Acc(train) 0.0504 | Acc(val) 0.0532 |
+Epoch 00011 | Loss(train) 4.0689 | Acc(train) 0.0486 | Acc(val) 0.0500 |
+Epoch 00012 | Loss(train) 4.0448 | Acc(train) 0.0500 | Acc(val) 0.0479 |
+Epoch 00013 | Loss(train) 4.0886 | Acc(train) 0.0525 | Acc(val) 0.0457 |
+Epoch 00014 | Loss(train) 4.0236 | Acc(train) 0.0606 | Acc(val) 0.0457 |
+Epoch 00015 | Loss(train) 4.0135 | Acc(train) 0.0504 | Acc(val) 0.0553 |*
+Epoch 00016 | Loss(train) 4.0074 | Acc(train) 0.0624 | Acc(val) 0.0596 |*
+Epoch 00017 | Loss(train) 4.0276 | Acc(train) 0.0670 | Acc(val) 0.0702 |*
+Epoch 00018 | Loss(train) 3.9926 | Acc(train) 0.0645 | Acc(val) 0.0766 |*
+Epoch 00019 | Loss(train) 4.0006 | Acc(train) 0.0596 | Acc(val) 0.0777 |*
+Epoch 00020 | Loss(train) 3.9914 | Acc(train) 0.0638 | Acc(val) 0.0787 |*
+Epoch 00021 | Loss(train) 3.9859 | Acc(train) 0.0667 | Acc(val) 0.0787 |
+Epoch 00022 | Loss(train) 3.9764 | Acc(train) 0.0553 | Acc(val) 0.0787 |
+Epoch 00023 | Loss(train) 3.9738 | Acc(train) 0.0610 | Acc(val) 0.0787 |
+Epoch 00024 | Loss(train) 3.9809 | Acc(train) 0.0628 | Acc(val) 0.0787 |
+Epoch 00025 | Loss(train) 3.9577 | Acc(train) 0.0663 | Acc(val) 0.0787 |
+Epoch 00026 | Loss(train) 3.9583 | Acc(train) 0.0670 | Acc(val) 0.0787 |
+Epoch 00027 | Loss(train) 3.9425 | Acc(train) 0.0649 | Acc(val) 0.0798 |*
+Epoch 00028 | Loss(train) 3.9516 | Acc(train) 0.0667 | Acc(val) 0.0798 |
+Epoch 00029 | Loss(train) 3.9416 | Acc(train) 0.0702 | Acc(val) 0.0798 |
+Epoch 00030 | Loss(train) 3.9406 | Acc(train) 0.0730 | Acc(val) 0.0798 |
+Epoch 00031 | Loss(train) 3.9239 | Acc(train) 0.0667 | Acc(val) 0.0798 |
+Epoch 00032 | Loss(train) 3.9178 | Acc(train) 0.0762 | Acc(val) 0.0798 |
+Epoch 00033 | Loss(train) 3.9070 | Acc(train) 0.0755 | Acc(val) 0.0798 |
+Epoch 00034 | Loss(train) 3.8987 | Acc(train) 0.0716 | Acc(val) 0.0798 |
+Epoch 00035 | Loss(train) 3.9025 | Acc(train) 0.0730 | Acc(val) 0.0819 |*
+Epoch 00036 | Loss(train) 3.8821 | Acc(train) 0.0798 | Acc(val) 0.0830 |*
+Epoch 00037 | Loss(train) 3.8876 | Acc(train) 0.0858 | Acc(val) 0.0872 |*
+Epoch 00038 | Loss(train) 3.8796 | Acc(train) 0.0816 | Acc(val) 0.0926 |*
+Epoch 00039 | Loss(train) 3.8471 | Acc(train) 0.0840 | Acc(val) 0.0947 |*
+Epoch 00040 | Loss(train) 3.8433 | Acc(train) 0.0865 | Acc(val) 0.0957 |*
+Epoch 00041 | Loss(train) 4.0097 | Acc(train) 0.0801 | Acc(val) 0.0968 |*
+Epoch 00042 | Loss(train) 3.8426 | Acc(train) 0.0844 | Acc(val) 0.0936 |
+Epoch 00043 | Loss(train) 3.8167 | Acc(train) 0.0862 | Acc(val) 0.0862 |
+Epoch 00044 | Loss(train) 3.7890 | Acc(train) 0.0883 | Acc(val) 0.0798 |
+Epoch 00045 | Loss(train) 3.8066 | Acc(train) 0.0975 | Acc(val) 0.0787 |
+Epoch 00046 | Loss(train) 3.7845 | Acc(train) 0.0922 | Acc(val) 0.0798 |
+Epoch 00047 | Loss(train) 3.7763 | Acc(train) 0.0954 | Acc(val) 0.0798 |
+Epoch 00048 | Loss(train) 3.7718 | Acc(train) 0.0940 | Acc(val) 0.0798 |
+Epoch 00049 | Loss(train) 3.7547 | Acc(train) 0.0911 | Acc(val) 0.0798 |
+Epoch 00050 | Loss(train) 3.7543 | Acc(train) 0.0858 | Acc(val) 0.0798 |
+Epoch 00051 | Loss(train) 3.7429 | Acc(train) 0.0915 | Acc(val) 0.0787 |
+Epoch 00052 | Loss(train) 3.7176 | Acc(train) 0.0954 | Acc(val) 0.0787 |
+Epoch 00053 | Loss(train) 3.7117 | Acc(train) 0.0915 | Acc(val) 0.0809 |
+Epoch 00054 | Loss(train) 3.7431 | Acc(train) 0.0936 | Acc(val) 0.0830 |
+Epoch 00055 | Loss(train) 3.6839 | Acc(train) 0.0908 | Acc(val) 0.0830 |
+Epoch 00056 | Loss(train) 3.7008 | Acc(train) 0.0933 | Acc(val) 0.0840 |
+Epoch 00057 | Loss(train) 3.6823 | Acc(train) 0.0890 | Acc(val) 0.0840 |
+Epoch 00058 | Loss(train) 3.7029 | Acc(train) 0.0879 | Acc(val) 0.0851 |
+Epoch 00059 | Loss(train) 3.6645 | Acc(train) 0.0950 | Acc(val) 0.0851 |
+Epoch 00060 | Loss(train) 3.6685 | Acc(train) 0.1032 | Acc(val) 0.0819 |
+Epoch 00061 | Loss(train) 3.6676 | Acc(train) 0.0954 | Acc(val) 0.0840 |
+Epoch 00062 | Loss(train) 3.6831 | Acc(train) 0.0975 | Acc(val) 0.0840 |
+Epoch 00063 | Loss(train) 3.6348 | Acc(train) 0.1043 | Acc(val) 0.0883 |
+Epoch 00064 | Loss(train) 3.6675 | Acc(train) 0.0936 | Acc(val) 0.0894 |
+Epoch 00065 | Loss(train) 3.6354 | Acc(train) 0.0940 | Acc(val) 0.0872 |
+Epoch 00066 | Loss(train) 3.6206 | Acc(train) 0.1014 | Acc(val) 0.0851 |
+Epoch 00067 | Loss(train) 3.6161 | Acc(train) 0.1018 | Acc(val) 0.0894 |
+Epoch 00068 | Loss(train) 3.6321 | Acc(train) 0.0965 | Acc(val) 0.0883 |
+Epoch 00069 | Loss(train) 3.6145 | Acc(train) 0.0954 | Acc(val) 0.0947 |
+Epoch 00070 | Loss(train) 3.7051 | Acc(train) 0.0975 | Acc(val) 0.1000 |*
+Epoch 00071 | Loss(train) 3.5958 | Acc(train) 0.0975 | Acc(val) 0.1000 |
+Epoch 00072 | Loss(train) 3.5816 | Acc(train) 0.1007 | Acc(val) 0.0968 |
+Epoch 00073 | Loss(train) 3.5967 | Acc(train) 0.1011 | Acc(val) 0.0968 |
+Epoch 00074 | Loss(train) 3.7446 | Acc(train) 0.1000 | Acc(val) 0.0989 |
+Epoch 00075 | Loss(train) 3.5991 | Acc(train) 0.1078 | Acc(val) 0.1138 |*
+Epoch 00076 | Loss(train) 3.5905 | Acc(train) 0.1096 | Acc(val) 0.1287 |*
+Epoch 00077 | Loss(train) 3.5997 | Acc(train) 0.1064 | Acc(val) 0.1287 |
+Epoch 00078 | Loss(train) 3.5903 | Acc(train) 0.1060 | Acc(val) 0.1234 |
+Epoch 00079 | Loss(train) 3.6017 | Acc(train) 0.1011 | Acc(val) 0.1266 |
+Epoch 00080 | Loss(train) 3.5809 | Acc(train) 0.1025 | Acc(val) 0.1351 |*
+Epoch 00081 | Loss(train) 3.5911 | Acc(train) 0.0996 | Acc(val) 0.1372 |*
+Epoch 00082 | Loss(train) 3.5647 | Acc(train) 0.1035 | Acc(val) 0.1383 |*
+Epoch 00083 | Loss(train) 3.5826 | Acc(train) 0.1000 | Acc(val) 0.1340 |
+Epoch 00084 | Loss(train) 3.5805 | Acc(train) 0.0972 | Acc(val) 0.1319 |
+Epoch 00085 | Loss(train) 3.5843 | Acc(train) 0.0954 | Acc(val) 0.1351 |
+Epoch 00086 | Loss(train) 3.5735 | Acc(train) 0.1110 | Acc(val) 0.1457 |*
+Epoch 00087 | Loss(train) 3.5761 | Acc(train) 0.1014 | Acc(val) 0.1447 |
+Epoch 00088 | Loss(train) 3.5799 | Acc(train) 0.1082 | Acc(val) 0.1500 |*
+Epoch 00089 | Loss(train) 3.5743 | Acc(train) 0.1018 | Acc(val) 0.1457 |
+Epoch 00090 | Loss(train) 3.6311 | Acc(train) 0.1071 | Acc(val) 0.1415 |
+Epoch 00091 | Loss(train) 3.5955 | Acc(train) 0.1103 | Acc(val) 0.1447 |
+Epoch 00092 | Loss(train) 3.5598 | Acc(train) 0.1035 | Acc(val) 0.1532 |*
+Epoch 00093 | Loss(train) 3.5766 | Acc(train) 0.1032 | Acc(val) 0.1468 |
+Epoch 00094 | Loss(train) 3.5927 | Acc(train) 0.1128 | Acc(val) 0.1457 |
+Epoch 00095 | Loss(train) 3.5644 | Acc(train) 0.1121 | Acc(val) 0.1287 |
+Epoch 00096 | Loss(train) 3.6017 | Acc(train) 0.1057 | Acc(val) 0.1202 |
+Epoch 00097 | Loss(train) 3.5647 | Acc(train) 0.1035 | Acc(val) 0.1223 |
+Epoch 00098 | Loss(train) 3.5639 | Acc(train) 0.0993 | Acc(val) 0.1191 |
+Epoch 00099 | Loss(train) 3.5595 | Acc(train) 0.1053 | Acc(val) 0.1170 |
+Epoch 00100 | Loss(train) 3.5772 | Acc(train) 0.1092 | Acc(val) 0.1149 |
+Epoch 00101 | Loss(train) 3.5292 | Acc(train) 0.1060 | Acc(val) 0.1149 |
+Epoch 00102 | Loss(train) 3.5392 | Acc(train) 0.1032 | Acc(val) 0.1191 |
+Epoch 00103 | Loss(train) 3.6037 | Acc(train) 0.1128 | Acc(val) 0.1234 |
+Epoch 00104 | Loss(train) 3.5736 | Acc(train) 0.1060 | Acc(val) 0.1330 |
+Epoch 00105 | Loss(train) 3.5537 | Acc(train) 0.1121 | Acc(val) 0.1415 |
+Epoch 00106 | Loss(train) 3.5287 | Acc(train) 0.1025 | Acc(val) 0.1436 |
+Epoch 00107 | Loss(train) 3.5865 | Acc(train) 0.1078 | Acc(val) 0.1404 |
+Epoch 00108 | Loss(train) 3.5482 | Acc(train) 0.1160 | Acc(val) 0.1436 |
+Epoch 00109 | Loss(train) 3.5688 | Acc(train) 0.1089 | Acc(val) 0.1511 |
+Epoch 00110 | Loss(train) 3.6524 | Acc(train) 0.1085 | Acc(val) 0.1532 |
+Epoch 00111 | Loss(train) 3.5806 | Acc(train) 0.1064 | Acc(val) 0.1638 |*
+Epoch 00112 | Loss(train) 3.5472 | Acc(train) 0.1050 | Acc(val) 0.1638 |
+Epoch 00113 | Loss(train) 3.5291 | Acc(train) 0.1014 | Acc(val) 0.1660 |*
+Epoch 00114 | Loss(train) 3.5384 | Acc(train) 0.1138 | Acc(val) 0.1670 |*
+Epoch 00115 | Loss(train) 3.5508 | Acc(train) 0.1234 | Acc(val) 0.1681 |*
+Epoch 00116 | Loss(train) 3.5481 | Acc(train) 0.1046 | Acc(val) 0.1734 |*
+Epoch 00117 | Loss(train) 3.5306 | Acc(train) 0.1113 | Acc(val) 0.1638 |
+Epoch 00118 | Loss(train) 3.5369 | Acc(train) 0.1067 | Acc(val) 0.1617 |
+Epoch 00119 | Loss(train) 3.5276 | Acc(train) 0.1131 | Acc(val) 0.1574 |
+Epoch 00120 | Loss(train) 3.5393 | Acc(train) 0.1071 | Acc(val) 0.1500 |
+Epoch 00121 | Loss(train) 3.5221 | Acc(train) 0.1117 | Acc(val) 0.1394 |
+Epoch 00122 | Loss(train) 3.5935 | Acc(train) 0.1028 | Acc(val) 0.1362 |
+Epoch 00123 | Loss(train) 3.5398 | Acc(train) 0.1092 | Acc(val) 0.1447 |
+Epoch 00124 | Loss(train) 3.5337 | Acc(train) 0.1092 | Acc(val) 0.1479 |
+Epoch 00125 | Loss(train) 3.5564 | Acc(train) 0.1096 | Acc(val) 0.1500 |
+Epoch 00126 | Loss(train) 3.5236 | Acc(train) 0.1149 | Acc(val) 0.1404 |
+Epoch 00127 | Loss(train) 3.5253 | Acc(train) 0.1152 | Acc(val) 0.1372 |
+Epoch 00128 | Loss(train) 3.5393 | Acc(train) 0.1149 | Acc(val) 0.1340 |
+Epoch 00129 | Loss(train) 3.5406 | Acc(train) 0.1149 | Acc(val) 0.1330 |
+Epoch 00130 | Loss(train) 3.5530 | Acc(train) 0.1028 | Acc(val) 0.1319 |
+Epoch 00131 | Loss(train) 3.5180 | Acc(train) 0.1124 | Acc(val) 0.1298 |
+Epoch 00132 | Loss(train) 3.5010 | Acc(train) 0.1117 | Acc(val) 0.1298 |
+Epoch 00133 | Loss(train) 3.5232 | Acc(train) 0.1082 | Acc(val) 0.1330 |
+Epoch 00134 | Loss(train) 3.4934 | Acc(train) 0.1117 | Acc(val) 0.1351 |
+Epoch 00135 | Loss(train) 3.5212 | Acc(train) 0.1128 | Acc(val) 0.1404 |
+Epoch 00136 | Loss(train) 3.5421 | Acc(train) 0.1177 | Acc(val) 0.1511 |
+Epoch 00137 | Loss(train) 3.5416 | Acc(train) 0.1117 | Acc(val) 0.1489 |
+Epoch 00138 | Loss(train) 3.5453 | Acc(train) 0.1195 | Acc(val) 0.1564 |
+Epoch 00139 | Loss(train) 3.5178 | Acc(train) 0.1156 | Acc(val) 0.1691 |
+Epoch 00140 | Loss(train) 3.5194 | Acc(train) 0.1199 | Acc(val) 0.1660 |
+Epoch 00141 | Loss(train) 3.5279 | Acc(train) 0.1167 | Acc(val) 0.1564 |
+Epoch 00142 | Loss(train) 3.5169 | Acc(train) 0.1191 | Acc(val) 0.1489 |
+Epoch 00143 | Loss(train) 3.5018 | Acc(train) 0.1145 | Acc(val) 0.1426 |
+Epoch 00144 | Loss(train) 3.5134 | Acc(train) 0.1018 | Acc(val) 0.1383 |
+Epoch 00145 | Loss(train) 3.5420 | Acc(train) 0.1028 | Acc(val) 0.1415 |
+Epoch 00146 | Loss(train) 3.5049 | Acc(train) 0.1209 | Acc(val) 0.1457 |
+Epoch 00147 | Loss(train) 3.5120 | Acc(train) 0.1082 | Acc(val) 0.1415 |
+Epoch 00148 | Loss(train) 3.5235 | Acc(train) 0.1035 | Acc(val) 0.1372 |
+Epoch 00149 | Loss(train) 3.5040 | Acc(train) 0.1131 | Acc(val) 0.1404 |
+Epoch 00150 | Loss(train) 3.4848 | Acc(train) 0.1167 | Acc(val) 0.1383 |
+Epoch 00151 | Loss(train) 3.4871 | Acc(train) 0.1113 | Acc(val) 0.1319 |
+Epoch 00152 | Loss(train) 3.4971 | Acc(train) 0.1230 | Acc(val) 0.1287 |
+Epoch 00153 | Loss(train) 3.5338 | Acc(train) 0.1135 | Acc(val) 0.1287 |
+Epoch 00154 | Loss(train) 3.5134 | Acc(train) 0.1138 | Acc(val) 0.1287 |
+Epoch 00155 | Loss(train) 3.5137 | Acc(train) 0.1152 | Acc(val) 0.1223 |
+Epoch 00156 | Loss(train) 3.5088 | Acc(train) 0.1113 | Acc(val) 0.1245 |
+Epoch 00157 | Loss(train) 3.4997 | Acc(train) 0.1128 | Acc(val) 0.1287 |
+Epoch 00158 | Loss(train) 3.4984 | Acc(train) 0.1202 | Acc(val) 0.1277 |
+Epoch 00159 | Loss(train) 3.5063 | Acc(train) 0.1202 | Acc(val) 0.1330 |
+Epoch 00160 | Loss(train) 3.5188 | Acc(train) 0.1188 | Acc(val) 0.1340 |
+Epoch 00161 | Loss(train) 3.4959 | Acc(train) 0.1124 | Acc(val) 0.1362 |
+Epoch 00162 | Loss(train) 3.5409 | Acc(train) 0.1152 | Acc(val) 0.1383 |
+Epoch 00163 | Loss(train) 3.5046 | Acc(train) 0.1170 | Acc(val) 0.1436 |
+Epoch 00164 | Loss(train) 3.5299 | Acc(train) 0.1149 | Acc(val) 0.1511 |
+Epoch 00165 | Loss(train) 3.5088 | Acc(train) 0.1223 | Acc(val) 0.1617 |
+Early stopping at epoch 165
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.2, 'cal_hidden_dim': 128}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 64, 'dropout': 0.8, 'norm': None, 'in_dim': 8710, 'out_dim': 70}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.001, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 706.29 MB
+GPU Memory Reserved: 2156.00 MB
+Exp 8/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 4.2487 | Acc(train) 0.0121 | Acc(val) 0.0330 |*
+Epoch 00002 | Loss(train) 4.2351 | Acc(train) 0.0262 | Acc(val) 0.0330 |
+Epoch 00003 | Loss(train) 4.2226 | Acc(train) 0.0355 | Acc(val) 0.0362 |*
+Epoch 00004 | Loss(train) 4.2097 | Acc(train) 0.0468 | Acc(val) 0.0596 |*
+Epoch 00005 | Loss(train) 4.1843 | Acc(train) 0.0493 | Acc(val) 0.0649 |*
+Epoch 00006 | Loss(train) 4.1610 | Acc(train) 0.0564 | Acc(val) 0.0500 |
+Epoch 00007 | Loss(train) 4.1285 | Acc(train) 0.0564 | Acc(val) 0.0457 |
+Epoch 00008 | Loss(train) 4.1094 | Acc(train) 0.0507 | Acc(val) 0.0447 |
+Epoch 00009 | Loss(train) 4.0798 | Acc(train) 0.0465 | Acc(val) 0.0447 |
+Epoch 00010 | Loss(train) 4.1171 | Acc(train) 0.0525 | Acc(val) 0.0447 |
+Epoch 00011 | Loss(train) 4.0423 | Acc(train) 0.0560 | Acc(val) 0.0447 |
+Epoch 00012 | Loss(train) 4.0320 | Acc(train) 0.0571 | Acc(val) 0.0447 |
+Epoch 00013 | Loss(train) 4.0762 | Acc(train) 0.0546 | Acc(val) 0.0447 |
+Epoch 00014 | Loss(train) 4.0430 | Acc(train) 0.0539 | Acc(val) 0.0447 |
+Epoch 00015 | Loss(train) 4.0089 | Acc(train) 0.0599 | Acc(val) 0.0447 |
+Epoch 00016 | Loss(train) 3.9961 | Acc(train) 0.0578 | Acc(val) 0.0617 |
+Epoch 00017 | Loss(train) 3.9987 | Acc(train) 0.0628 | Acc(val) 0.0777 |*
+Epoch 00018 | Loss(train) 3.9958 | Acc(train) 0.0649 | Acc(val) 0.0787 |*
+Epoch 00019 | Loss(train) 3.9930 | Acc(train) 0.0667 | Acc(val) 0.0798 |*
+Epoch 00020 | Loss(train) 3.9759 | Acc(train) 0.0624 | Acc(val) 0.0798 |
+Epoch 00021 | Loss(train) 3.9825 | Acc(train) 0.0645 | Acc(val) 0.0798 |
+Epoch 00022 | Loss(train) 3.9619 | Acc(train) 0.0670 | Acc(val) 0.0798 |
+Epoch 00023 | Loss(train) 3.9602 | Acc(train) 0.0645 | Acc(val) 0.0798 |
+Epoch 00024 | Loss(train) 3.9558 | Acc(train) 0.0631 | Acc(val) 0.0798 |
+Epoch 00025 | Loss(train) 3.9466 | Acc(train) 0.0649 | Acc(val) 0.0798 |
+Epoch 00026 | Loss(train) 3.9468 | Acc(train) 0.0610 | Acc(val) 0.0798 |
+Epoch 00027 | Loss(train) 3.9479 | Acc(train) 0.0610 | Acc(val) 0.0798 |
+Epoch 00028 | Loss(train) 3.9372 | Acc(train) 0.0688 | Acc(val) 0.0798 |
+Epoch 00029 | Loss(train) 3.9490 | Acc(train) 0.0635 | Acc(val) 0.0798 |
+Epoch 00030 | Loss(train) 3.9199 | Acc(train) 0.0695 | Acc(val) 0.0798 |
+Epoch 00031 | Loss(train) 3.9050 | Acc(train) 0.0702 | Acc(val) 0.0798 |
+Epoch 00032 | Loss(train) 3.9117 | Acc(train) 0.0709 | Acc(val) 0.0798 |
+Epoch 00033 | Loss(train) 3.9169 | Acc(train) 0.0691 | Acc(val) 0.0798 |
+Epoch 00034 | Loss(train) 3.9045 | Acc(train) 0.0770 | Acc(val) 0.0798 |
+Epoch 00035 | Loss(train) 3.8897 | Acc(train) 0.0734 | Acc(val) 0.0798 |
+Epoch 00036 | Loss(train) 3.8850 | Acc(train) 0.0777 | Acc(val) 0.0798 |
+Epoch 00037 | Loss(train) 3.8775 | Acc(train) 0.0801 | Acc(val) 0.0798 |
+Epoch 00038 | Loss(train) 3.8754 | Acc(train) 0.0773 | Acc(val) 0.0798 |
+Epoch 00039 | Loss(train) 3.8667 | Acc(train) 0.0773 | Acc(val) 0.0798 |
+Epoch 00040 | Loss(train) 3.8548 | Acc(train) 0.0787 | Acc(val) 0.0798 |
+Epoch 00041 | Loss(train) 3.8431 | Acc(train) 0.0798 | Acc(val) 0.0798 |
+Epoch 00042 | Loss(train) 3.8610 | Acc(train) 0.0826 | Acc(val) 0.0798 |
+Epoch 00043 | Loss(train) 3.8405 | Acc(train) 0.0837 | Acc(val) 0.0798 |
+Epoch 00044 | Loss(train) 3.8202 | Acc(train) 0.0791 | Acc(val) 0.0798 |
+Epoch 00045 | Loss(train) 3.8102 | Acc(train) 0.0844 | Acc(val) 0.0798 |
+Epoch 00046 | Loss(train) 3.7792 | Acc(train) 0.0844 | Acc(val) 0.0798 |
+Epoch 00047 | Loss(train) 3.7767 | Acc(train) 0.0840 | Acc(val) 0.0798 |
+Epoch 00048 | Loss(train) 3.7815 | Acc(train) 0.0812 | Acc(val) 0.0798 |
+Epoch 00049 | Loss(train) 3.7541 | Acc(train) 0.0879 | Acc(val) 0.0798 |
+Epoch 00050 | Loss(train) 3.7535 | Acc(train) 0.0901 | Acc(val) 0.0798 |
+Epoch 00051 | Loss(train) 3.7595 | Acc(train) 0.0890 | Acc(val) 0.0798 |
+Epoch 00052 | Loss(train) 3.7147 | Acc(train) 0.0929 | Acc(val) 0.0798 |
+Epoch 00053 | Loss(train) 3.7183 | Acc(train) 0.0943 | Acc(val) 0.0798 |
+Epoch 00054 | Loss(train) 3.7213 | Acc(train) 0.0929 | Acc(val) 0.0798 |
+Epoch 00055 | Loss(train) 3.6881 | Acc(train) 0.0943 | Acc(val) 0.0851 |*
+Epoch 00056 | Loss(train) 3.6845 | Acc(train) 0.0936 | Acc(val) 0.0904 |*
+Epoch 00057 | Loss(train) 3.6751 | Acc(train) 0.0972 | Acc(val) 0.0989 |*
+Epoch 00058 | Loss(train) 3.6818 | Acc(train) 0.0993 | Acc(val) 0.0915 |
+Epoch 00059 | Loss(train) 3.6915 | Acc(train) 0.0936 | Acc(val) 0.0904 |
+Epoch 00060 | Loss(train) 3.6513 | Acc(train) 0.0922 | Acc(val) 0.0851 |
+Epoch 00061 | Loss(train) 3.6542 | Acc(train) 0.0936 | Acc(val) 0.0851 |
+Epoch 00062 | Loss(train) 3.7700 | Acc(train) 0.0915 | Acc(val) 0.0872 |
+Epoch 00063 | Loss(train) 3.6535 | Acc(train) 0.1025 | Acc(val) 0.0862 |
+Epoch 00064 | Loss(train) 3.6439 | Acc(train) 0.0947 | Acc(val) 0.0883 |
+Epoch 00065 | Loss(train) 3.6549 | Acc(train) 0.0922 | Acc(val) 0.0883 |
+Epoch 00066 | Loss(train) 3.6131 | Acc(train) 0.0961 | Acc(val) 0.0872 |
+Epoch 00067 | Loss(train) 3.6442 | Acc(train) 0.1014 | Acc(val) 0.0883 |
+Epoch 00068 | Loss(train) 3.5989 | Acc(train) 0.0922 | Acc(val) 0.0872 |
+Epoch 00069 | Loss(train) 3.5975 | Acc(train) 0.1057 | Acc(val) 0.0883 |
+Epoch 00070 | Loss(train) 3.6247 | Acc(train) 0.1007 | Acc(val) 0.0883 |
+Epoch 00071 | Loss(train) 3.6017 | Acc(train) 0.1007 | Acc(val) 0.0894 |
+Epoch 00072 | Loss(train) 3.5977 | Acc(train) 0.1021 | Acc(val) 0.0894 |
+Epoch 00073 | Loss(train) 3.6143 | Acc(train) 0.0986 | Acc(val) 0.0968 |
+Epoch 00074 | Loss(train) 3.5906 | Acc(train) 0.1035 | Acc(val) 0.0989 |
+Epoch 00075 | Loss(train) 3.5998 | Acc(train) 0.1071 | Acc(val) 0.0968 |
+Epoch 00076 | Loss(train) 3.6923 | Acc(train) 0.1035 | Acc(val) 0.1032 |*
+Epoch 00077 | Loss(train) 3.6034 | Acc(train) 0.1007 | Acc(val) 0.1170 |*
+Epoch 00078 | Loss(train) 3.6068 | Acc(train) 0.1007 | Acc(val) 0.1287 |*
+Epoch 00079 | Loss(train) 3.5984 | Acc(train) 0.1050 | Acc(val) 0.1404 |*
+Epoch 00080 | Loss(train) 3.6053 | Acc(train) 0.1032 | Acc(val) 0.1500 |*
+Epoch 00081 | Loss(train) 3.5842 | Acc(train) 0.1028 | Acc(val) 0.1532 |*
+Epoch 00082 | Loss(train) 3.5699 | Acc(train) 0.1064 | Acc(val) 0.1511 |
+Epoch 00083 | Loss(train) 3.5820 | Acc(train) 0.0965 | Acc(val) 0.1351 |
+Epoch 00084 | Loss(train) 3.5685 | Acc(train) 0.1082 | Acc(val) 0.1266 |
+Epoch 00085 | Loss(train) 3.5704 | Acc(train) 0.1110 | Acc(val) 0.1181 |
+Epoch 00086 | Loss(train) 3.5727 | Acc(train) 0.1067 | Acc(val) 0.1043 |
+Epoch 00087 | Loss(train) 3.5585 | Acc(train) 0.1074 | Acc(val) 0.1021 |
+Epoch 00088 | Loss(train) 3.5900 | Acc(train) 0.1064 | Acc(val) 0.0989 |
+Epoch 00089 | Loss(train) 3.6306 | Acc(train) 0.1011 | Acc(val) 0.0915 |
+Epoch 00090 | Loss(train) 3.5463 | Acc(train) 0.1117 | Acc(val) 0.0915 |
+Epoch 00091 | Loss(train) 3.5731 | Acc(train) 0.1064 | Acc(val) 0.0904 |
+Epoch 00092 | Loss(train) 3.5512 | Acc(train) 0.1067 | Acc(val) 0.0989 |
+Epoch 00093 | Loss(train) 3.5951 | Acc(train) 0.0986 | Acc(val) 0.1000 |
+Epoch 00094 | Loss(train) 3.5569 | Acc(train) 0.1135 | Acc(val) 0.1000 |
+Epoch 00095 | Loss(train) 3.5666 | Acc(train) 0.1089 | Acc(val) 0.0989 |
+Epoch 00096 | Loss(train) 3.5548 | Acc(train) 0.1078 | Acc(val) 0.0968 |
+Epoch 00097 | Loss(train) 3.5319 | Acc(train) 0.1064 | Acc(val) 0.1000 |
+Epoch 00098 | Loss(train) 3.5264 | Acc(train) 0.1071 | Acc(val) 0.1043 |
+Epoch 00099 | Loss(train) 3.5494 | Acc(train) 0.1050 | Acc(val) 0.1053 |
+Epoch 00100 | Loss(train) 3.5289 | Acc(train) 0.1110 | Acc(val) 0.1213 |
+Epoch 00101 | Loss(train) 3.5213 | Acc(train) 0.1138 | Acc(val) 0.1330 |
+Epoch 00102 | Loss(train) 3.6172 | Acc(train) 0.1099 | Acc(val) 0.1521 |
+Epoch 00103 | Loss(train) 3.5603 | Acc(train) 0.1121 | Acc(val) 0.1543 |*
+Epoch 00104 | Loss(train) 3.5580 | Acc(train) 0.1074 | Acc(val) 0.1596 |*
+Epoch 00105 | Loss(train) 3.5640 | Acc(train) 0.1046 | Acc(val) 0.1734 |*
+Epoch 00106 | Loss(train) 3.5249 | Acc(train) 0.1135 | Acc(val) 0.1766 |*
+Epoch 00107 | Loss(train) 3.5705 | Acc(train) 0.1067 | Acc(val) 0.1766 |
+Epoch 00108 | Loss(train) 3.5576 | Acc(train) 0.1096 | Acc(val) 0.1660 |
+Epoch 00109 | Loss(train) 3.5632 | Acc(train) 0.1135 | Acc(val) 0.1596 |
+Epoch 00110 | Loss(train) 3.5675 | Acc(train) 0.1156 | Acc(val) 0.1511 |
+Epoch 00111 | Loss(train) 3.5489 | Acc(train) 0.1110 | Acc(val) 0.1468 |
+Epoch 00112 | Loss(train) 3.6223 | Acc(train) 0.1135 | Acc(val) 0.1511 |
+Epoch 00113 | Loss(train) 3.7807 | Acc(train) 0.1121 | Acc(val) 0.1606 |
+Epoch 00114 | Loss(train) 3.5392 | Acc(train) 0.1213 | Acc(val) 0.1606 |
+Epoch 00115 | Loss(train) 3.5603 | Acc(train) 0.1131 | Acc(val) 0.1404 |
+Epoch 00116 | Loss(train) 3.5429 | Acc(train) 0.1110 | Acc(val) 0.1330 |
+Epoch 00117 | Loss(train) 3.5629 | Acc(train) 0.1135 | Acc(val) 0.1255 |
+Epoch 00118 | Loss(train) 3.5497 | Acc(train) 0.1106 | Acc(val) 0.1181 |
+Epoch 00119 | Loss(train) 3.5555 | Acc(train) 0.1113 | Acc(val) 0.1191 |
+Epoch 00120 | Loss(train) 3.5835 | Acc(train) 0.1149 | Acc(val) 0.1223 |
+Epoch 00121 | Loss(train) 3.5164 | Acc(train) 0.1085 | Acc(val) 0.1245 |
+Epoch 00122 | Loss(train) 3.5205 | Acc(train) 0.1082 | Acc(val) 0.1234 |
+Epoch 00123 | Loss(train) 3.5474 | Acc(train) 0.1046 | Acc(val) 0.1287 |
+Epoch 00124 | Loss(train) 3.5134 | Acc(train) 0.1085 | Acc(val) 0.1266 |
+Epoch 00125 | Loss(train) 3.5243 | Acc(train) 0.1160 | Acc(val) 0.1404 |
+Epoch 00126 | Loss(train) 3.5251 | Acc(train) 0.1106 | Acc(val) 0.1511 |
+Epoch 00127 | Loss(train) 3.5535 | Acc(train) 0.1124 | Acc(val) 0.1596 |
+Epoch 00128 | Loss(train) 3.5597 | Acc(train) 0.1089 | Acc(val) 0.1681 |
+Epoch 00129 | Loss(train) 3.6300 | Acc(train) 0.1103 | Acc(val) 0.1713 |
+Epoch 00130 | Loss(train) 3.5554 | Acc(train) 0.1099 | Acc(val) 0.1734 |
+Epoch 00131 | Loss(train) 3.5216 | Acc(train) 0.1227 | Acc(val) 0.1691 |
+Epoch 00132 | Loss(train) 3.5485 | Acc(train) 0.1195 | Acc(val) 0.1649 |
+Epoch 00133 | Loss(train) 3.5296 | Acc(train) 0.1128 | Acc(val) 0.1564 |
+Epoch 00134 | Loss(train) 3.5025 | Acc(train) 0.1131 | Acc(val) 0.1564 |
+Epoch 00135 | Loss(train) 3.5283 | Acc(train) 0.1096 | Acc(val) 0.1585 |
+Epoch 00136 | Loss(train) 3.5785 | Acc(train) 0.1128 | Acc(val) 0.1617 |
+Epoch 00137 | Loss(train) 3.5290 | Acc(train) 0.1096 | Acc(val) 0.1649 |
+Epoch 00138 | Loss(train) 3.4902 | Acc(train) 0.1124 | Acc(val) 0.1713 |
+Epoch 00139 | Loss(train) 3.5292 | Acc(train) 0.1191 | Acc(val) 0.1670 |
+Epoch 00140 | Loss(train) 3.5538 | Acc(train) 0.1195 | Acc(val) 0.1628 |
+Epoch 00141 | Loss(train) 3.5971 | Acc(train) 0.1199 | Acc(val) 0.1628 |
+Epoch 00142 | Loss(train) 3.8217 | Acc(train) 0.1103 | Acc(val) 0.1574 |
+Epoch 00143 | Loss(train) 3.5095 | Acc(train) 0.1213 | Acc(val) 0.1511 |
+Epoch 00144 | Loss(train) 3.5420 | Acc(train) 0.1209 | Acc(val) 0.1436 |
+Epoch 00145 | Loss(train) 3.5130 | Acc(train) 0.1106 | Acc(val) 0.1489 |
+Epoch 00146 | Loss(train) 3.5031 | Acc(train) 0.1138 | Acc(val) 0.1553 |
+Epoch 00147 | Loss(train) 3.5096 | Acc(train) 0.1092 | Acc(val) 0.1543 |
+Epoch 00148 | Loss(train) 3.5223 | Acc(train) 0.1103 | Acc(val) 0.1511 |
+Epoch 00149 | Loss(train) 3.5330 | Acc(train) 0.1099 | Acc(val) 0.1521 |
+Epoch 00150 | Loss(train) 3.5018 | Acc(train) 0.1131 | Acc(val) 0.1532 |
+Epoch 00151 | Loss(train) 3.4968 | Acc(train) 0.1149 | Acc(val) 0.1564 |
+Epoch 00152 | Loss(train) 3.5178 | Acc(train) 0.1160 | Acc(val) 0.1606 |
+Epoch 00153 | Loss(train) 3.4968 | Acc(train) 0.1078 | Acc(val) 0.1670 |
+Epoch 00154 | Loss(train) 3.4879 | Acc(train) 0.1252 | Acc(val) 0.1691 |
+Epoch 00155 | Loss(train) 3.5346 | Acc(train) 0.1170 | Acc(val) 0.1649 |
+Early stopping at epoch 155
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.2, 'cal_hidden_dim': 128}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 64, 'dropout': 0.8, 'norm': None, 'in_dim': 8710, 'out_dim': 70}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.001, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 706.29 MB
+GPU Memory Reserved: 2156.00 MB
+Exp 9/10
+************************************
+Start fitting model
+************************************
+Epoch 00001 | Loss(train) 4.2319 | Acc(train) 0.0160 | Acc(val) 0.0223 |*
+Epoch 00002 | Loss(train) 4.2209 | Acc(train) 0.0369 | Acc(val) 0.0947 |*
+Epoch 00003 | Loss(train) 4.2056 | Acc(train) 0.0482 | Acc(val) 0.0883 |
+Epoch 00004 | Loss(train) 4.1909 | Acc(train) 0.0567 | Acc(val) 0.0787 |
+Epoch 00005 | Loss(train) 4.1663 | Acc(train) 0.0557 | Acc(val) 0.0787 |
+Epoch 00006 | Loss(train) 4.1487 | Acc(train) 0.0511 | Acc(val) 0.0787 |
+Epoch 00007 | Loss(train) 4.1115 | Acc(train) 0.0550 | Acc(val) 0.0798 |
+Epoch 00008 | Loss(train) 4.0987 | Acc(train) 0.0500 | Acc(val) 0.0798 |
+Epoch 00009 | Loss(train) 4.0589 | Acc(train) 0.0504 | Acc(val) 0.0787 |
+Epoch 00010 | Loss(train) 4.0787 | Acc(train) 0.0514 | Acc(val) 0.0766 |
+Epoch 00011 | Loss(train) 4.0884 | Acc(train) 0.0560 | Acc(val) 0.0500 |
+Epoch 00012 | Loss(train) 4.0300 | Acc(train) 0.0603 | Acc(val) 0.0447 |
+Epoch 00013 | Loss(train) 4.1106 | Acc(train) 0.0574 | Acc(val) 0.0447 |
+Epoch 00014 | Loss(train) 4.0103 | Acc(train) 0.0535 | Acc(val) 0.0447 |
+Epoch 00015 | Loss(train) 3.9859 | Acc(train) 0.0635 | Acc(val) 0.0447 |
+Epoch 00016 | Loss(train) 4.0065 | Acc(train) 0.0535 | Acc(val) 0.0447 |
+Epoch 00017 | Loss(train) 3.9895 | Acc(train) 0.0628 | Acc(val) 0.0447 |
+Epoch 00018 | Loss(train) 3.9772 | Acc(train) 0.0624 | Acc(val) 0.0468 |
+Epoch 00019 | Loss(train) 3.9820 | Acc(train) 0.0631 | Acc(val) 0.0606 |
+Epoch 00020 | Loss(train) 3.9754 | Acc(train) 0.0585 | Acc(val) 0.0691 |
+Epoch 00021 | Loss(train) 3.9672 | Acc(train) 0.0652 | Acc(val) 0.0734 |
+Epoch 00022 | Loss(train) 3.9612 | Acc(train) 0.0621 | Acc(val) 0.0745 |
+Epoch 00023 | Loss(train) 3.9439 | Acc(train) 0.0617 | Acc(val) 0.0734 |
+Epoch 00024 | Loss(train) 3.9397 | Acc(train) 0.0635 | Acc(val) 0.0755 |
+Epoch 00025 | Loss(train) 3.9418 | Acc(train) 0.0695 | Acc(val) 0.0766 |
+Epoch 00026 | Loss(train) 3.9299 | Acc(train) 0.0645 | Acc(val) 0.0766 |
+Epoch 00027 | Loss(train) 3.9436 | Acc(train) 0.0713 | Acc(val) 0.0787 |
+Epoch 00028 | Loss(train) 3.9298 | Acc(train) 0.0684 | Acc(val) 0.0798 |
+Epoch 00029 | Loss(train) 3.9143 | Acc(train) 0.0699 | Acc(val) 0.0798 |
+Epoch 00030 | Loss(train) 3.9181 | Acc(train) 0.0677 | Acc(val) 0.0798 |
+Epoch 00031 | Loss(train) 3.9723 | Acc(train) 0.0741 | Acc(val) 0.0798 |
+Epoch 00032 | Loss(train) 3.8879 | Acc(train) 0.0745 | Acc(val) 0.0798 |
+Epoch 00033 | Loss(train) 3.8880 | Acc(train) 0.0798 | Acc(val) 0.0798 |
+Epoch 00034 | Loss(train) 3.8767 | Acc(train) 0.0801 | Acc(val) 0.0798 |
+Epoch 00035 | Loss(train) 3.8637 | Acc(train) 0.0823 | Acc(val) 0.0798 |
+Epoch 00036 | Loss(train) 3.8610 | Acc(train) 0.0780 | Acc(val) 0.0798 |
+Epoch 00037 | Loss(train) 3.8521 | Acc(train) 0.0883 | Acc(val) 0.0798 |
+Epoch 00038 | Loss(train) 3.8222 | Acc(train) 0.0851 | Acc(val) 0.0798 |
+Epoch 00039 | Loss(train) 3.8266 | Acc(train) 0.0918 | Acc(val) 0.0798 |
+Epoch 00040 | Loss(train) 3.8225 | Acc(train) 0.0837 | Acc(val) 0.0798 |
+Epoch 00041 | Loss(train) 3.8047 | Acc(train) 0.0858 | Acc(val) 0.0798 |
+Epoch 00042 | Loss(train) 3.7707 | Acc(train) 0.0876 | Acc(val) 0.0798 |
+Epoch 00043 | Loss(train) 3.7807 | Acc(train) 0.0887 | Acc(val) 0.0798 |
+Epoch 00044 | Loss(train) 3.7847 | Acc(train) 0.0918 | Acc(val) 0.0798 |
+Epoch 00045 | Loss(train) 3.7386 | Acc(train) 0.0862 | Acc(val) 0.0798 |
+Epoch 00046 | Loss(train) 3.7302 | Acc(train) 0.0897 | Acc(val) 0.0840 |
+Epoch 00047 | Loss(train) 3.7538 | Acc(train) 0.0972 | Acc(val) 0.0840 |
+Epoch 00048 | Loss(train) 3.7219 | Acc(train) 0.0950 | Acc(val) 0.0830 |
+Epoch 00049 | Loss(train) 3.7226 | Acc(train) 0.0915 | Acc(val) 0.0798 |
+Epoch 00050 | Loss(train) 3.7013 | Acc(train) 0.0887 | Acc(val) 0.0798 |
+Epoch 00051 | Loss(train) 3.9209 | Acc(train) 0.0901 | Acc(val) 0.0798 |
+Early stopping at epoch 51
+************************************
+Start fitting calibration
+************************************
+Calibration model configuration
+Namespace(calibration={'epochs': 1000, 'patience': 50, 'cal_lr': 0.01, 'cal_weight_decay': 0, 'num_bin': 10, 'calibrator_name': 'VS', 'dist_to_train': None, 'heads': 2, 'bias': 1, 'cal_dropout': 0.2, 'cal_hidden_dim': 128}, gnn={'type': 'gcnii', 'num_layer': 16, 'hid_dim': 64, 'dropout': 0.8, 'norm': None, 'in_dim': 8710, 'out_dim': 70}, train={'epochs': 200, 'lr': 0.01, 'weight_decay': 0.001, 'patience': 50})
+************************************
+************************************
+GPU memory allowcation
+GPU Memory Allocated: 706.29 MB
+GPU Memory Reserved: 2156.00 MB
+All runs:
+Uncalibrated Test Accuracy: 13.01 ± 3.59
+Uncalibrated Difference: 5.64 ± 2.83
+Calibrated Test Accuracy: 15.89 ± 4.14
+Calibrated Difference: 3.62 ± 1.75

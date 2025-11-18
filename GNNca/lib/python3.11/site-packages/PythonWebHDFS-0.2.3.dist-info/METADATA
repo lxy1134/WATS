@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: PythonWebHDFS
+Version: 0.2.3
+Summary: Customized Python Web HDFS client
+Home-page: UNKNOWN
+Author: SparkSnail
+Author-email: noreplay@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Filesystems
+Requires-Dist: requests
+Requires-Dist: simplejson
+
+Customized Python WebHDFS client, Modified from https://pypi.org/project/PyHDFS/
+
+1.Support setting webhdfs_path
+2.Support Pylon.
+
+
